@@ -19,41 +19,43 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <div id="header_menu_section">
-                    <Container fluid>
-                        <Row>
-                            <Col>
-                                <Navbar expand="lg">
-                                    <Navbar.Brand href="#home">
-                                        <img className="navLogo" src={this.state.NavLogo}/>
-                                    </Navbar.Brand>
-                                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                                    <Navbar.Collapse id="basic-navbar-nav">
-                                        <Nav className="header_menu mr-auto">
-                                            <Nav.Link href="#home">Products</Nav.Link>
-                                            <Nav.Link href="#claims">Claims</Nav.Link>
-                                            <Nav.Link href="#claims">Support</Nav.Link>
-                                            <Nav.Link href="#claims">Rewards</Nav.Link>
-                                            <Nav.Link className="nav_link_white" href="#claims">Group
-                                                Insurance</Nav.Link>
-                                            <Nav.Link className="nav_link_white" href="#claims">About Us</Nav.Link>
-                                        </Nav>
+                <div className="menu_wrapper">
+                    <div id="header_menu_section">
+                        <Container fluid>
+                            <Row>
+                                <Col>
+                                    <Navbar expand="lg">
+                                        <Navbar.Brand href="#home">
+                                            <img className="navLogo" src={this.state.NavLogo}/>
+                                        </Navbar.Brand>
+                                        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                                        <Navbar.Collapse id="basic-navbar-nav">
+                                            <Nav className="header_menu mr-auto">
+                                                <Nav.Link href="#home">Products</Nav.Link>
+                                                <Nav.Link href="#claims">Claims</Nav.Link>
+                                                <Nav.Link href="#claims">Support</Nav.Link>
+                                                <Nav.Link href="#claims">Rewards</Nav.Link>
+                                                <Nav.Link className="border_left"></Nav.Link>
+                                                <Nav.Link className="nav_link_white" href="#claims">Group
+                                                    Insurance</Nav.Link>
+                                                <Nav.Link className="nav_link_white" href="#claims">About Us</Nav.Link>
+                                            </Nav>
 
-                                        <div className="nav_right">
-                                            <a href="#" className="login">
-                                                login
-                                            </a>
-                                            <a href="#">
+                                            <div className="nav_right">
+                                                <a href="#" className="login">
+                                                    login
+                                                </a>
+                                                <a href="#">
                                                 <span className="call">
                                                     <HeadsetMicIcon>Call Icon</HeadsetMicIcon>
                                                 </span>
-                                            </a>
-                                            <a href="#">
+                                                </a>
+                                                <a href="#">
                                                 <span className="search">
                                                     <SearchIcon>Search Icon</SearchIcon>
                                                 </span>
-                                            </a>
-                                            <a href="#">
+                                                </a>
+                                                <a href="#">
                                                 <span className="language">
                                                     <p>En</p>
                                                     <p className="header_arrow_1">
@@ -64,14 +66,15 @@ class TopNavigation extends Component {
                                                     </p>
 
                                                 </span>
-                                            </a>
-                                        </div>
+                                                </a>
+                                            </div>
 
-                                    </Navbar.Collapse>
-                                </Navbar>
-                            </Col>
-                        </Row>
-                    </Container>
+                                        </Navbar.Collapse>
+                                    </Navbar>
+                                </Col>
+                            </Row>
+                        </Container>
+                    </div>
                 </div>
             </Fragment>
         );

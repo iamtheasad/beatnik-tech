@@ -110,11 +110,203 @@ a.login {
     font-family: 'Montserrat', sans-serif;
 }
 
+.language:before {
+    content: '';
+    position: absolute;
+    background: #e6e6e6;
+    width: 1px;
+    height: 100%;
+    left: -17px;
+}
+
 .nav_right a {
     text-decoration: none;
     color: #e87722;
 }
 
+.border_left:before {
+    position: absolute;
+    content: '';
+    background: #e6e6e6;
+    width: 1px;
+    height: 100%;
+}
+
+.border_left {
+    position: relative;
+}
+
+.menu_wrapper {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
 /**************************************
      Navigation End
+***************************************/
+
+/**************************************
+     Header Banner Section Start
+***************************************/
+.section_width {
+    max-width: 1530px;
+    margin: 0 auto;
+}
+
+.banner_section {
+    position: relative;
+}
+
+.banner_section .slick-slider {
+    overflow: hidden;
+}
+
+.protection_plan_box img {
+    width: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.protection_plan h3 {
+    font-size: 24px;
+    color: #fffc01;
+    padding-top: 25px;
+}
+
+.protection_plan {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.protection_box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 730px;
+}
+
+.protection_plat_wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    padding-bottom: 100px;
+}
+
+.protect_title {
+    font-size: 72px;
+    color: #0404ab;
+    background-color: #e5e5ff;
+    display: block;
+    padding: 15px 15px 15px 0px;
+    max-width: 78%;
+    border-radius: 20%;
+    margin-bottom: 85px;
+}
+
+.protection_plan_box img {
+    margin: 0 auto;
+}
+
+.protection_plan_box h4 {
+    color: #fff;
+    font-size: 12px;
+    background-color: #232075;
+    padding: 7px;
+    border-radius: 20% 20% 0 0;
+}
+
+.protection_plan_box {
+    background: #fff;
+    border-radius: 20% 20%;
+}
+
+.banner_bottom {
+    padding: 35px 20px;
+    background-color: #fff;
+    max-width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    bottom: -17%;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner_bottom_right {
+    display: flex;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 9px -3px #d1d1d1;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.banner_bottom_right_wrapper span a {
+    color: #f7941e;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px -2px #d1d1d1;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.banner_bottom_right_wrapper h4 {
+    color: #2c302e;
+    font-size: 18px;
+}
+
+.banner_bottom_title {
+    float: left;
+    line-height: 55px;
+    font-size: 32px;
+    padding-left: 20px;
+    color: #2c302e;
+}
+.bottom_search_icon {
+    float: left;
+    background: #f7941e;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.banner_bottom_left {
+    display: flex;
+    align-items: center;
+}
+.banner_single_item:focus {
+    outline: none;
+}
+
+.banner_section .slick-next {
+    right: 10px;
+}
+
+.banner_section .slick-prev {
+    left: 10px;
+}
+.slick-next,
+.slick-prev {
+    z-index: 10;
+    width: 80px !important;
+}
+.banner_section .slick-next:before {
+    content: url("../../assets/images/banner-icon/right-arrow.svg");
+}
+
+.banner_section .slick-prev:before {
+    content: url("../../assets/images/banner-icon/left-arrow.svg");
+}
+/**************************************
+     Header Banner Section End
 ***************************************/
