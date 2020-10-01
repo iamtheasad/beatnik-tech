@@ -1,0 +1,120 @@
+/*Default CSS*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #6a6a6a;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/**************************************
+     Navigation Start
+***************************************/
+#header_menu_section {
+    max-width: 1825px;
+    background-color: #fff;
+    border-radius: 0px 0px 0px 30px;
+    margin: 0 auto;
+}
+
+img.navLogo {
+    width: 147px;
+}
+
+.header_menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #0d0d0d !important;
+}
+
+.header_menu a.nav_link_white.nav-link {
+    color: #6f6f6f !important;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    color: #6f6f6f;
+    position: relative;
+}
+
+.header_arrow_1 {
+    position: absolute;
+    left: 16px;
+    top: -7px;
+}
+
+.header_arrow_2 {
+    position: absolute;
+    left: 16px;
+    bottom: -6px;
+}
+
+a.login {
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #e87722;
+    padding: 14px 24px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav_right a {
+    text-decoration: none;
+    color: #e87722;
+}
+
+/**************************************
+     Navigation End
+***************************************/
