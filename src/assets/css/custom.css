@@ -518,7 +518,7 @@ a.view_all_button:hover {
     Insurance Plan Start
 ***************************************/
 .insurance_bg {
-    background-image: url(/beatnik-tech/static/media/insuranc-bg.271612da.jpg);
+    background-image: url("../images/insuranc-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -634,8 +634,8 @@ a.insurance_box_button {
     opacity: .6;
 }
 
-.call_action_item select#cars, .call_action_item input, .call_action_item button {
-    width: 100%;
+.call_action_item select, .call_action_item input, .call_action_item button {
+    width: 430px;
     padding: 20px;
     margin: 10px;
     box-shadow: 0px 1px 7px -2px #f7f7f7;
@@ -656,6 +656,13 @@ h2.call_to_action_title {
     color: #fff;
     font-size: 18px;
 }
+
+.call_action_item select, .call_action_item input::placeholder {
+    color: #000;
+}
+
+
+
 
 /**************************************
     Call to Action End
