@@ -22,7 +22,6 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    color: #6a6a6a;
     font-weight: 700;
 }
 
@@ -512,4 +511,84 @@ a.view_all_button:hover {
 
 /**************************************
     Policy Plan End
+***************************************/
+
+
+/**************************************
+    Insurance Plan Start
+***************************************/
+.insurance_bg {
+    background-image: url("../../assets/images/insuranc-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+.insurance_width {
+    max-width: 1336px;
+    margin: 0 auto;
+}
+
+.insurance_title {
+    color: #002287;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.insurance_box {
+    background-color: #fff;
+    border: 2px solid #ececec;
+    margin-bottom: 80px;
+}
+
+.insurance_box_title {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 30px;
+    color: #1165ad;
+    border-bottom: 2px solid #ececec;
+}
+
+.insurance_box_title h3 {
+    font-size: 20px;
+}
+
+.isnurance_box_body {
+    padding: 25px;
+}
+
+.isnurance_box_body p {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+a.insurance_box_button {
+    text-decoration: none;
+    color: #0177c9;
+    background: transparent;
+    padding: 15px 20px;
+    border: 1px solid #0177c9;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.insurance_learn_more_button span {
+    background-color: #0177c9;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**************************************
+    Insurance Plan End
 ***************************************/
