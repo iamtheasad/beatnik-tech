@@ -307,6 +307,57 @@ a.login {
 .banner_section .slick-prev:before {
     content: url("../../assets/images/banner-icon/left-arrow.svg");
 }
+
 /**************************************
      Header Banner Section End
+***************************************/
+
+
+/**************************************
+    Policy Plan Start
+***************************************/
+.policy_plan {
+    max-width: 1270px;
+    margin: 160px auto;
+}
+
+.policy_item h3 {
+    font-size: 24px;
+    padding-left: 20px;
+}
+.policy_item {
+    display: flex;
+}
+
+.policy_item_1 h3 {
+    color: #206175;
+}
+
+.policy_item_2 h3 {
+    color: #b8409e;
+}
+
+.policy_item_3 h3 {
+    color: #990012;
+}
+
+.policy_item_1 {
+    background-color: rgb(32 97 117 / 0.2);
+}
+
+.policy_item_2 {
+    background-color: rgb(184 64 158 / 0.2);
+}
+
+.policy_item_3 {
+    background-color: rgb(153 0 18 / 0.2);
+}
+.policy_item_1, .policy_item_2, .policy_item_3 {
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+
+/**************************************
+    Policy Plan End
 ***************************************/

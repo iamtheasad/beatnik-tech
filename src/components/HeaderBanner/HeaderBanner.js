@@ -14,6 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Banner_1 from '../../assets/images/banner-icon/banner-bg.jpg';
 
+
 class HeaderBanner extends Component {
     constructor(props) {
         super(props);
@@ -199,6 +200,7 @@ class HeaderBanner extends Component {
                         </div>
                     </div>
                 </div>
+                {/*banner_section end*/}
             </Fragment>
         );
     }
