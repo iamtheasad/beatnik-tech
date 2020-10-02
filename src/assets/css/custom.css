@@ -610,7 +610,7 @@ a.insurance_box_button {
 }
 
 .call_to_action {
-    background-image: url(/beatnik-tech/static/media/car.a9827dbc.jpg);
+    background-image: url("../images/car.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

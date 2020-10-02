@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 import {Col, Container, Nav, Navbar, Row} from "react-bootstrap";
 import '../../assets/css/bootstrap.min.css';
 import '../../assets/css/custom.css';
+import '../../assets/css/responsive.css';
 import Logo from '../../assets/images/logo.png';
 import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
 import SearchIcon from '@material-ui/icons/Search';

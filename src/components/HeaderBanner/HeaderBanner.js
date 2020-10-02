@@ -32,7 +32,7 @@ class HeaderBanner extends Component {
             infinite: true,
             speed: 500,
             arrows: true,
-            autoplay: true,
+            autoplay: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 0,
@@ -41,21 +41,24 @@ class HeaderBanner extends Component {
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        arrows: false,
                     }
                 },
                 {
                     breakpoint: 600,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        arrows: false,
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        arrows: false,
                     }
                 }
             ]

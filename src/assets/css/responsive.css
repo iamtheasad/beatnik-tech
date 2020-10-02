@@ -1,0 +1,160 @@
+/* Larg Layout: 992px-1280px */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+}
+
+/* Large Layout: 992px-1280px End */
+
+/* Large Layout: 992px Start */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Layout: 992px End */
+
+
+/* Tablet & Mobile Layout: 0px-991px */
+@media only screen and (max-width: 991px) {
+    .protection_plat_wrapper {
+        flex-wrap: wrap;
+        margin-top: 150px;
+    }
+
+    .protection_box {
+        height: auto;
+    }
+
+    .protect_title {
+        display: none;
+    }
+
+    .policy_item {
+        margin-bottom: 30px;
+    }
+
+    .our_product_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .product_top h2 {
+        font-size: 32px;
+    }
+
+    .sanchay p {
+        padding: 20px 20px;
+    }
+
+    .sanchay h2 {
+        padding-top: 30px;
+    }
+
+    .sanchay_button {
+        padding-bottom: 0px;
+    }
+
+    .sanchay_button span a {
+        margin-top: 20px;
+        color: #fff;
+        background-color: #f7941e;
+        padding: 15px 15px;
+        display: block;
+    }
+
+    .policy_body_wrapper .slick-next:before {
+        display: none;
+    }
+
+    .policy_body_wrapper .slick-prev:before {
+        display: none;
+    }
+
+    .insurance_title {
+        font-size: 32px;
+    }
+
+    .insurance_bg {
+        padding-top: 50px;
+    }
+
+    .insurance_box {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Tablet & Mobile Layout: 0px-991px End */
+
+
+/* Tablet Layout: 768px-991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Tablet Layout: 768px-991px End */
+
+
+/* Mobile Layout: 0px-767px */
+@media only screen and (max-width: 767px) {
+    .banner_bottom_title {
+        font-size: 24px;
+    }
+
+    .banner_bottom {
+        transform: unset;
+        position: unset;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .policy_plan {
+        margin: 50px auto;
+    }
+
+    .policy_menu.nav-pills .nav-link {
+        line-height: 0px;
+    }
+
+    .policy_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a.view_all_button {
+        font-size: 14px;
+        padding: 12px 20px;
+        margin-top: 30px;
+    }
+
+    h2.call_to_action_title {
+        text-align: center;
+    }
+
+}
+
+/* Mobile Layout: 0px-767px End */
+
+
+/* Wide Mobile Layout: 576px-767px Start */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Wide Mobile Layout:576px-767px End */
+
+
+/* Small Devices: 0px-575px Start */
+@media only screen and (max-width: 575px) {
+    .policy_menu {
+        min-height: auto;
+        padding: 40px 0px;
+    }
+
+    .sanchay h2 {
+        text-align: center;
+    }
+
+    .policy_body_wrapper img {
+        margin-top: 50px;
+    }
+
+}
+
+/* Small Devices: 0px-575px End */
