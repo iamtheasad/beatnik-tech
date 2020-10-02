@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/beatnik-tech/static/css/main.b2d84778.chunk.css",
-    "main.js": "/beatnik-tech/static/js/main.1b22b92e.chunk.js",
-    "main.js.map": "/beatnik-tech/static/js/main.1b22b92e.chunk.js.map",
+    "main.css": "/beatnik-tech/static/css/main.c39d4f95.chunk.css",
+    "main.js": "/beatnik-tech/static/js/main.00702558.chunk.js",
+    "main.js.map": "/beatnik-tech/static/js/main.00702558.chunk.js.map",
     "runtime-main.js": "/beatnik-tech/static/js/runtime-main.cde4b98e.js",
     "runtime-main.js.map": "/beatnik-tech/static/js/runtime-main.cde4b98e.js.map",
     "static/css/2.578e4e32.chunk.css": "/beatnik-tech/static/css/2.578e4e32.chunk.css",
-    "static/js/2.24db50f6.chunk.js": "/beatnik-tech/static/js/2.24db50f6.chunk.js",
-    "static/js/2.24db50f6.chunk.js.map": "/beatnik-tech/static/js/2.24db50f6.chunk.js.map",
+    "static/js/2.a25dcb38.chunk.js": "/beatnik-tech/static/js/2.a25dcb38.chunk.js",
+    "static/js/2.a25dcb38.chunk.js.map": "/beatnik-tech/static/js/2.a25dcb38.chunk.js.map",
     "index.html": "/beatnik-tech/index.html",
-    "precache-manifest.313cc9b41696f0956f4584934ce7fed4.js": "/beatnik-tech/precache-manifest.313cc9b41696f0956f4584934ce7fed4.js",
+    "precache-manifest.ba9575d9835dc8b5878895fa57749616.js": "/beatnik-tech/precache-manifest.ba9575d9835dc8b5878895fa57749616.js",
     "service-worker.js": "/beatnik-tech/service-worker.js",
     "static/css/2.578e4e32.chunk.css.map": "/beatnik-tech/static/css/2.578e4e32.chunk.css.map",
-    "static/css/main.b2d84778.chunk.css.map": "/beatnik-tech/static/css/main.b2d84778.chunk.css.map",
-    "static/js/2.24db50f6.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.24db50f6.chunk.js.LICENSE.txt",
+    "static/css/main.c39d4f95.chunk.css.map": "/beatnik-tech/static/css/main.c39d4f95.chunk.css.map",
+    "static/js/2.a25dcb38.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.a25dcb38.chunk.js.LICENSE.txt",
     "static/media/1-sister-and-brother.svg": "/beatnik-tech/static/media/1-sister-and-brother.0423e6ba.svg",
     "static/media/2-graduate-boy-reading-a-book.svg": "/beatnik-tech/static/media/2-graduate-boy-reading-a-book.7c6b0c25.svg",
     "static/media/3-money-bag.svg": "/beatnik-tech/static/media/3-money-bag.8dc357ce.svg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.cde4b98e.js",
     "static/css/2.578e4e32.chunk.css",
-    "static/js/2.24db50f6.chunk.js",
-    "static/css/main.b2d84778.chunk.css",
-    "static/js/main.1b22b92e.chunk.js"
+    "static/js/2.a25dcb38.chunk.js",
+    "static/css/main.c39d4f95.chunk.css",
+    "static/js/main.00702558.chunk.js"
   ]
 }
