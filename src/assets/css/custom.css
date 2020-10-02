@@ -592,3 +592,51 @@ a.insurance_box_button {
 /**************************************
     Insurance Plan End
 ***************************************/
+
+
+/**************************************
+    Call to Action Start
+***************************************/
+.call_to_action:after {
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .6;
+}
+
+.call_to_action {
+    background-image: url(/beatnik-tech/static/media/car.a9827dbc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.call_action_item select#cars, .call_action_item input, .call_action_item button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 1px 12px -3px #1b1b1b;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+
+h2.call_to_action_title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/**************************************
+    Call to Action End
+***************************************/
