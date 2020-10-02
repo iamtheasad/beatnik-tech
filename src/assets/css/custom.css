@@ -177,7 +177,7 @@ a.login {
 .protection_plan {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 300px;
     margin: 20px;
     text-align: center;
     flex-wrap: wrap;
