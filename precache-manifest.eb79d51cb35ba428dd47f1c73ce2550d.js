@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66618e3efcb00f406259b36cb8712fd3",
+    "revision": "7de82ff625c6f02f9f9cd4d6dc64c5ab",
     "url": "/beatnik-tech/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatnik-tech/static/css/2.578e4e32.chunk.css"
   },
   {
-    "revision": "9b2d33f81fe3a6462fef",
-    "url": "/beatnik-tech/static/css/main.decaf735.chunk.css"
+    "revision": "d3f809d1759413ca7969",
+    "url": "/beatnik-tech/static/css/main.d5dbed83.chunk.css"
   },
   {
     "revision": "c6196568e3a9e489b9ff",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatnik-tech/static/js/2.a123b5ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b2d33f81fe3a6462fef",
-    "url": "/beatnik-tech/static/js/main.2efeaf79.chunk.js"
+    "revision": "d3f809d1759413ca7969",
+    "url": "/beatnik-tech/static/js/main.087147e0.chunk.js"
   },
   {
     "revision": "5e56e71c3c0799980f80",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee8d1c65fa8ad43ea217c75269248c00",
     "url": "/beatnik-tech/static/media/family-plan.ee8d1c65.jpg"
-  },
-  {
-    "revision": "271612dad3511ba2a2565713eefbb665",
-    "url": "/beatnik-tech/static/media/insuranc-bg.271612da.jpg"
   },
   {
     "revision": "87e27296ef01f81f0346150ed8e58f11",
