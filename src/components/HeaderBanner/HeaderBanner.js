@@ -125,7 +125,11 @@ class HeaderBanner extends Component {
                         </div>
                         {/*banner_single_item*/}
                         <div className="banner_single_item">
-                            <div className="section_width" style={{'backgroundImage': `url(${Banner_1})`}}>
+                            <div className="section_width" style={{
+                                'backgroundImage': `url(${Banner_1})`,
+                                'backgroundSize': "cover",
+                                'backgroundPosition': "center"
+                            }}>
                                 <Container fluid>
                                     <Row>
                                         <Col lg={12}>

@@ -11,7 +11,7 @@ class CallToAction extends Component {
                     <div className="section_width">
                         <Container>
                             <Row>
-                                <Col md={4} className="offset-md-8">
+                                <Col lg={4} md={6} sm={12} className="offset-md-5 offset-lg-8">
                                     <h2 className="call_to_action_title">Get an instant quote from Dhaka leading insurers now.</h2>
                                     <div className="call_action_item">
                                         <select id="cars">
