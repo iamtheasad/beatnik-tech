@@ -272,6 +272,7 @@ a.login {
     padding-left: 20px;
     color: #2c302e;
 }
+
 .bottom_search_icon {
     float: left;
     background: #f7941e;
@@ -284,6 +285,7 @@ a.login {
     display: flex;
     align-items: center;
 }
+
 .banner_single_item:focus {
     outline: none;
 }
@@ -295,11 +297,13 @@ a.login {
 .banner_section .slick-prev {
     left: 10px;
 }
+
 .slick-next,
 .slick-prev {
     z-index: 10;
     width: 80px !important;
 }
+
 .banner_section .slick-next:before {
     content: url("../../assets/images/banner-icon/right-arrow.svg");
 }
@@ -319,12 +323,14 @@ a.login {
 .policy_plan {
     max-width: 1270px;
     margin: 160px auto;
+    margin-bottom: 50px;
 }
 
 .policy_item h3 {
     font-size: 24px;
     padding-left: 20px;
 }
+
 .policy_item {
     display: flex;
 }
@@ -352,11 +358,157 @@ a.login {
 .policy_item_3 {
     background-color: rgb(153 0 18 / 0.2);
 }
+
 .policy_item_1, .policy_item_2, .policy_item_3 {
     padding: 40px 30px;
     border-radius: 10px;
 }
 
+.sanchay h2 {
+    color: #4e4e4e;
+    padding-top: 100px;
+}
+
+.sanchay p {
+    color: #4e4e4e;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    padding: 40px 0px;
+    font-weight: 500;
+}
+
+a.shancay_details {
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sanchay_button {
+    padding-bottom: 50px;
+}
+
+.sanchay_button span a {
+    font-size: 18px;
+    color: #4e4e4e;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: transparent;
+    transition: .3s;
+    border-radius: 5px;
+    display: block;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.sanchay_button span a:hover {
+    color: #fff;
+    background-color: #f7941e;
+}
+
+.product_top h2 {
+    font-size: 45px;
+    color: #2c302e;
+}
+
+.product_top h2 span {
+    font-weight: 500;
+}
+
+.product_top p {
+    color: #4e4e4e;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.our_product_section {
+    padding-top: 140px;
+    padding-bottom: 60px;
+    background-color: #f3f3f3;
+}
+
+.policy_body_wrapper {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #d1d1d1;
+    border-radius: 20px;
+}
+
+.policy_body_wrapper img {
+    border-radius: 20px;
+    height: 637px;
+    object-fit: cover;
+}
+
+a.view_all_button {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #232075;
+    padding: 20px 45px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 35px;
+    transition: .2s;
+}
+
+a.view_all_button:hover {
+    background-color: #303075;
+}
+
+.policy_menu {
+    background-color: #2c302e;
+    min-height: 637px;
+    border-radius: 20px;
+}
+
+.policy_menu.nav-pills .nav-link.active, .policy_menu.nav-pills .show > .nav-link {
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.policy_menu.nav-pills .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.7;
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+.policy_body_wrapper .slick-next {
+    right: 50%;
+    top: 100%;
+}
+
+.policy_body_wrapper .slick-prev {
+    top: 100%;
+    left: 50%;
+}
+
+.policy_body_wrapper .slick-next,
+.policy_body_wrapper .slick-prev {
+    z-index: 10;
+    width: 20px !important;
+}
+
+.policy_body_wrapper .slick-next:before {
+    content: url("../../assets/images/banner-icon/left-arrow.svg");
+}
+
+.policy_body_wrapper .slick-prev:before {
+
+    content: url("../../assets/images/banner-icon/right-arrow.svg");
+}
+
+.policy_slider_wrapper_1 {
+    outline: none;
+}
 
 /**************************************
     Policy Plan End
