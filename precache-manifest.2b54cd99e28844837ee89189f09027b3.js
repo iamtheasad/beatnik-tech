@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6a5aca1d72d121a0fe695075244d985",
+    "revision": "bf8809b583ce3100d02775867942265a",
     "url": "/beatnik-tech/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatnik-tech/static/css/2.578e4e32.chunk.css"
   },
   {
-    "revision": "a5f3b4d584530ef4ee01",
-    "url": "/beatnik-tech/static/css/main.4150dc81.chunk.css"
+    "revision": "fd784c187268e9b45546",
+    "url": "/beatnik-tech/static/css/main.6a8a5c9e.chunk.css"
   },
   {
     "revision": "c6196568e3a9e489b9ff",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatnik-tech/static/js/2.a123b5ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5f3b4d584530ef4ee01",
-    "url": "/beatnik-tech/static/js/main.6aec97fd.chunk.js"
+    "revision": "fd784c187268e9b45546",
+    "url": "/beatnik-tech/static/js/main.b15d0e34.chunk.js"
   },
   {
     "revision": "5e56e71c3c0799980f80",
