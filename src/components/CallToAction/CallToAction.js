@@ -15,17 +15,14 @@ class CallToAction extends Component {
                                     <h2 className="call_to_action_title">Get an instant quote from Dhaka leading
                                         insurers now.</h2>
                                     <div className="call_action_item">
-
-                                        <label>
-                                            <select id="cars">
-                                                <optgroup label="Select Years">
-                                                    <option value="volvo">Year</option>
-                                                    <option value="saab">2010</option>
-                                                    <option value="saab">2011</option>
-                                                    <option value="saab">2012</option>
-                                                </optgroup>
-                                            </select>
-                                        </label>
+                                        <select id="cars">
+                                            <optgroup label="Select Years">
+                                                <option value="volvo">Year</option>
+                                                <option value="saab">2010</option>
+                                                <option value="saab">2011</option>
+                                                <option value="saab">2012</option>
+                                            </optgroup>
+                                        </select>
                                         <select id="cars">
                                             <optgroup label="Select Years">
                                                 <option value="volvo">Brand</option>
