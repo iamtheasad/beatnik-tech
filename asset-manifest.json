@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/beatnik-tech/static/css/main.cf1447f9.chunk.css",
-    "main.js": "/beatnik-tech/static/js/main.d3f380fc.chunk.js",
-    "main.js.map": "/beatnik-tech/static/js/main.d3f380fc.chunk.js.map",
+    "main.css": "/beatnik-tech/static/css/main.ad8c73c0.chunk.css",
+    "main.js": "/beatnik-tech/static/js/main.186d9864.chunk.js",
+    "main.js.map": "/beatnik-tech/static/js/main.186d9864.chunk.js.map",
     "runtime-main.js": "/beatnik-tech/static/js/runtime-main.cde4b98e.js",
     "runtime-main.js.map": "/beatnik-tech/static/js/runtime-main.cde4b98e.js.map",
     "static/css/2.578e4e32.chunk.css": "/beatnik-tech/static/css/2.578e4e32.chunk.css",
-    "static/js/2.63ddc4a9.chunk.js": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js",
-    "static/js/2.63ddc4a9.chunk.js.map": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js.map",
+    "static/js/2.d1c17b32.chunk.js": "/beatnik-tech/static/js/2.d1c17b32.chunk.js",
+    "static/js/2.d1c17b32.chunk.js.map": "/beatnik-tech/static/js/2.d1c17b32.chunk.js.map",
     "index.html": "/beatnik-tech/index.html",
-    "precache-manifest.74d43661fbf5272bea616e2004c5b4c1.js": "/beatnik-tech/precache-manifest.74d43661fbf5272bea616e2004c5b4c1.js",
+    "precache-manifest.b157034ad88fe2f3c59b45bbe9b5706d.js": "/beatnik-tech/precache-manifest.b157034ad88fe2f3c59b45bbe9b5706d.js",
     "service-worker.js": "/beatnik-tech/service-worker.js",
     "static/css/2.578e4e32.chunk.css.map": "/beatnik-tech/static/css/2.578e4e32.chunk.css.map",
-    "static/css/main.cf1447f9.chunk.css.map": "/beatnik-tech/static/css/main.cf1447f9.chunk.css.map",
-    "static/js/2.63ddc4a9.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js.LICENSE.txt",
+    "static/css/main.ad8c73c0.chunk.css.map": "/beatnik-tech/static/css/main.ad8c73c0.chunk.css.map",
+    "static/js/2.d1c17b32.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.d1c17b32.chunk.js.LICENSE.txt",
     "static/media/1-sister-and-brother.svg": "/beatnik-tech/static/media/1-sister-and-brother.0423e6ba.svg",
     "static/media/2-graduate-boy-reading-a-book.svg": "/beatnik-tech/static/media/2-graduate-boy-reading-a-book.7c6b0c25.svg",
     "static/media/3-money-bag.svg": "/beatnik-tech/static/media/3-money-bag.8dc357ce.svg",
     "static/media/4-protection-symbol-of-opened-umbrella-silhouette-under-raindrops.svg": "/beatnik-tech/static/media/4-protection-symbol-of-opened-umbrella-silhouette-under-raindrops.1d8cb0f7.svg",
+    "static/media/award_1.jpg": "/beatnik-tech/static/media/award_1.7bcf7b57.jpg",
+    "static/media/award_3.jpg": "/beatnik-tech/static/media/award_3.53222e1a.jpg",
+    "static/media/award_icon.png": "/beatnik-tech/static/media/award_icon.2fecb73d.png",
     "static/media/banner-bg.jpg": "/beatnik-tech/static/media/banner-bg.3f136ab3.jpg",
     "static/media/custom.css": "/beatnik-tech/static/media/right-arrow.a6dfbed7.svg",
     "static/media/family-plan.jpg": "/beatnik-tech/static/media/family-plan.ee8d1c65.jpg",
@@ -29,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.cde4b98e.js",
     "static/css/2.578e4e32.chunk.css",
-    "static/js/2.63ddc4a9.chunk.js",
-    "static/css/main.cf1447f9.chunk.css",
-    "static/js/main.d3f380fc.chunk.js"
+    "static/js/2.d1c17b32.chunk.js",
+    "static/css/main.ad8c73c0.chunk.css",
+    "static/js/main.186d9864.chunk.js"
   ]
 }

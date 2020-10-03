@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f87a622be80005991dc4f96129d8904",
+    "revision": "3dc49792de05c81e8e14b55d603fe3c5",
     "url": "/beatnik-tech/index.html"
   },
   {
-    "revision": "f35254c75144a80a8943",
+    "revision": "ec85fc3b52461cb17344",
     "url": "/beatnik-tech/static/css/2.578e4e32.chunk.css"
   },
   {
-    "revision": "cc0a4a296bbc3f92c591",
-    "url": "/beatnik-tech/static/css/main.cf1447f9.chunk.css"
+    "revision": "4b622de5a3c5a3f942ea",
+    "url": "/beatnik-tech/static/css/main.ad8c73c0.chunk.css"
   },
   {
-    "revision": "f35254c75144a80a8943",
-    "url": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js"
+    "revision": "ec85fc3b52461cb17344",
+    "url": "/beatnik-tech/static/js/2.d1c17b32.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js.LICENSE.txt"
+    "url": "/beatnik-tech/static/js/2.d1c17b32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc0a4a296bbc3f92c591",
-    "url": "/beatnik-tech/static/js/main.d3f380fc.chunk.js"
+    "revision": "4b622de5a3c5a3f942ea",
+    "url": "/beatnik-tech/static/js/main.186d9864.chunk.js"
   },
   {
     "revision": "5e56e71c3c0799980f80",
@@ -42,6 +42,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d8cb0f783f2348756793853392078f0",
     "url": "/beatnik-tech/static/media/4-protection-symbol-of-opened-umbrella-silhouette-under-raindrops.1d8cb0f7.svg"
+  },
+  {
+    "revision": "7bcf7b57e0258bbdea5b5fc54baa3280",
+    "url": "/beatnik-tech/static/media/award_1.7bcf7b57.jpg"
+  },
+  {
+    "revision": "53222e1a6cf1f9ce0ea04806667a475e",
+    "url": "/beatnik-tech/static/media/award_3.53222e1a.jpg"
+  },
+  {
+    "revision": "2fecb73da1aaa7432eb2933bf87e3581",
+    "url": "/beatnik-tech/static/media/award_icon.2fecb73d.png"
   },
   {
     "revision": "3f136ab335fb4600640d147143e3cd91",
