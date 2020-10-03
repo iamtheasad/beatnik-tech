@@ -7,12 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 class OurProducts extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            FamilyPlanImg: [FamilyPlanImg]
-        }
-    }
 
     render() {
         const settings = {

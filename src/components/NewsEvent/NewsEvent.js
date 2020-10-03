@@ -6,15 +6,6 @@ import news_3 from '../../assets/images/news/news_3.jpg';
 import news_4 from '../../assets/images/news/news_4.jpg';
 
 class NewsEvent extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            news_1: [news_1],
-            news_2: [news_2],
-            news_3: [news_3],
-            news_4: [news_4]
-        }
-    }
 
     render() {
         return (
@@ -32,7 +23,7 @@ class NewsEvent extends Component {
                         <Row>
                             <Col lg={4} md={6} sm={12}>
                                 <div className="news_box">
-                                    <img src={this.state.news_4} className="news_img" alt="News Image"/>
+                                    <img src={news_4} className="news_img" alt="News Image"/>
 
                                     <div className="news_text">
                                         <h2>New premium rates has been introduced.</h2>
@@ -43,7 +34,7 @@ class NewsEvent extends Component {
                             </Col>
                             <Col lg={4} md={6} sm={12}>
                                 <div className="news_box">
-                                    <img src={this.state.news_3} className="news_img" alt="News Image"/>
+                                    <img src={news_3} className="news_img" alt="News Image"/>
 
                                     <div className="news_text">
                                         <h2>New premium rates has been introduced.</h2>
@@ -59,7 +50,7 @@ class NewsEvent extends Component {
                                         <div className="recent_border"></div>
                                         <div className="recent_news_item">
                                             <a href="#">
-                                                <img src={this.state.news_4} className="news_img recent_img"
+                                                <img src={news_4} className="news_img recent_img"
                                                      alt="News Image"/>
                                                 <span>New premium rates has been introduced.</span>
                                             </a>
@@ -67,7 +58,7 @@ class NewsEvent extends Component {
                                         <div className="recent_border"></div>
                                         <div className="recent_news_item">
                                             <a href="#">
-                                                <img src={this.state.news_3} className="news_img recent_img"
+                                                <img src={news_3} className="news_img recent_img"
                                                      alt="News Image"/>
                                                 <span>New premium rates has been introduced.</span>
                                             </a>
@@ -75,7 +66,7 @@ class NewsEvent extends Component {
                                         <div className="recent_border"></div>
                                         <div className="recent_news_item">
                                             <a href="#">
-                                                <img src={this.state.news_2} className="news_img recent_img"
+                                                <img src={news_2} className="news_img recent_img"
                                                      alt="News Image"/>
                                                 <span>New premium rates has been introduced.</span>
                                             </a>
@@ -83,7 +74,7 @@ class NewsEvent extends Component {
                                         <div className="recent_border"></div>
                                         <div className="recent_news_item">
                                             <a href="#">
-                                                <img src={this.state.news_1} className="news_img recent_img"
+                                                <img src={news_1} className="news_img recent_img"
                                                      alt="News Image"/>
                                                 <span>New premium rates has been introduced.</span>
                                             </a>

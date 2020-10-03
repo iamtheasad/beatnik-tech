@@ -1041,3 +1041,59 @@ h2.call_to_action_title {
 /**************************************
    News Event End
 ***************************************/
+
+
+/**************************************
+        Award Section Start
+***************************************/
+.award_section {
+    background-color: #e3f5f5;
+    padding: 122px 0px;
+}
+
+.awards_section_width {
+    max-width: 1412px;
+    margin: 0 auto;
+}
+
+.award_box {
+    background-image: url("../images/awards/awards-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.award_icon {
+    position: absolute;
+    top: 2%;
+    left: 45%;
+    width: 41px;
+}
+
+.award_box {
+    padding: 50px;
+}
+
+.award_box h4 {
+    font-size: 18px;
+    color: #5eaaff;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.awar_imag {
+    margin-top: 30px;
+}
+
+.award_title h2 {
+    color: #47609c;
+    font-size: 35px;
+    text-align: center;
+}
+
+/**************************************
+        Award Section End
+***************************************/
