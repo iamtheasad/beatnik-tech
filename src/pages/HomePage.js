@@ -5,6 +5,7 @@ import PolicyPlan from "../components/PolicyPlan/PolicyPlan";
 import OurProducts from "../components/OurProducts/OurProducts";
 import InsuranceCatergory from "../components/InsuranceCatergory/InsuranceCatergory";
 import CallToAction from "../components/CallToAction/CallToAction";
+import Services from "../components/Services/Services";
 
 class HomePage extends Component {
     render() {
@@ -16,6 +17,7 @@ class HomePage extends Component {
                 <OurProducts/>
                 <InsuranceCatergory/>
                 <CallToAction/>
+                <Services/>
             </>
         );
     }
