@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e91afa2776dec7ee293ec49ebb5f7ef",
+    "revision": "3f87a622be80005991dc4f96129d8904",
     "url": "/beatnik-tech/index.html"
   },
   {
-    "revision": "fa6b84ddea1b2804618b",
+    "revision": "f35254c75144a80a8943",
     "url": "/beatnik-tech/static/css/2.578e4e32.chunk.css"
   },
   {
-    "revision": "fbdcd61631ad18a57803",
-    "url": "/beatnik-tech/static/css/main.5b5341ad.chunk.css"
+    "revision": "cc0a4a296bbc3f92c591",
+    "url": "/beatnik-tech/static/css/main.cf1447f9.chunk.css"
   },
   {
-    "revision": "fa6b84ddea1b2804618b",
-    "url": "/beatnik-tech/static/js/2.606da176.chunk.js"
+    "revision": "f35254c75144a80a8943",
+    "url": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/beatnik-tech/static/js/2.606da176.chunk.js.LICENSE.txt"
+    "url": "/beatnik-tech/static/js/2.63ddc4a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbdcd61631ad18a57803",
-    "url": "/beatnik-tech/static/js/main.426cb249.chunk.js"
+    "revision": "cc0a4a296bbc3f92c591",
+    "url": "/beatnik-tech/static/js/main.d3f380fc.chunk.js"
   },
   {
     "revision": "5e56e71c3c0799980f80",
@@ -62,6 +62,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87e27296ef01f81f0346150ed8e58f11",
     "url": "/beatnik-tech/static/media/left-arrow.87e27296.svg"
+  },
+  {
+    "revision": "d8de969d21f8875a5b7a250006d8a46e",
+    "url": "/beatnik-tech/static/media/news_1.d8de969d.jpg"
+  },
+  {
+    "revision": "b84359be4f2ccbd6591ea766c7ca6f87",
+    "url": "/beatnik-tech/static/media/news_2.b84359be.jpg"
+  },
+  {
+    "revision": "056f218557deadd0a4c9be265676e14e",
+    "url": "/beatnik-tech/static/media/news_4.056f2185.jpg"
   },
   {
     "revision": "a6dfbed73934e95ab6f08feabed4da00",
