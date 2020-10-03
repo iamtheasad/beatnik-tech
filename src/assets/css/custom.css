@@ -88,14 +88,14 @@ img.navLogo {
 
 .header_arrow_1 {
     position: absolute;
-    left: 16px;
-    top: -7px;
+    left: 20px;
+    top: -5px;
 }
 
 .header_arrow_2 {
     position: absolute;
-    left: 16px;
-    bottom: -6px;
+    left: 20px;
+    bottom: -3px;
 }
 
 a.login {
@@ -660,8 +660,6 @@ h2.call_to_action_title {
 .call_action_item select, .call_action_item input::placeholder {
     color: #000;
 }
-
-
 
 
 /**************************************

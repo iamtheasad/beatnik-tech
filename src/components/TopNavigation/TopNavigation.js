@@ -60,10 +60,10 @@ class TopNavigation extends Component {
                                                 <span className="language">
                                                     <p>En</p>
                                                     <p className="header_arrow_1">
-                                                        <ExpandLessIcon>arrow up</ExpandLessIcon>
+                                                        <ExpandLessIcon style={{fontSize: '14px'}}>arrow up</ExpandLessIcon>
                                                     </p>
                                                     <p className="header_arrow_2">
-                                                        <ExpandMoreIcon>arrow down</ExpandMoreIcon>
+                                                        <ExpandMoreIcon style={{fontSize: '14px'}}>arrow down</ExpandMoreIcon>
                                                     </p>
 
                                                 </span>
