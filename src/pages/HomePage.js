@@ -6,6 +6,7 @@ import OurProducts from "../components/OurProducts/OurProducts";
 import InsuranceCatergory from "../components/InsuranceCatergory/InsuranceCatergory";
 import CallToAction from "../components/CallToAction/CallToAction";
 import Services from "../components/Services/Services";
+import NewsEvent from "../components/NewsEvent/NewsEvent";
 
 class HomePage extends Component {
     render() {
@@ -18,6 +19,7 @@ class HomePage extends Component {
                 <InsuranceCatergory/>
                 <CallToAction/>
                 <Services/>
+                <NewsEvent/>
             </>
         );
     }
