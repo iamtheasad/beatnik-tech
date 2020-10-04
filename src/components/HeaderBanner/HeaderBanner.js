@@ -188,7 +188,7 @@ class HeaderBanner extends Component {
                                 <SearchIcon style={{fontSize: '32px'}}>Search</SearchIcon>
                             </div>
                             <div className="banner_bottom_title">
-                                Wha do you need?
+                                What do you need?
                             </div>
                         </div>
                         <div className="banner_bottom_right">

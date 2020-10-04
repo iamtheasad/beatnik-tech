@@ -57,7 +57,7 @@
         color: #fff;
         background-color: #f7941e;
         padding: 15px 15px;
-        display: block;
+        display: inline-block;
     }
 
     .policy_body_wrapper .slick-next:before {
@@ -80,6 +80,9 @@
         margin-bottom: 30px;
     }
 
+    .policy_body_wrapper img {
+        display: none;
+    }
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */
@@ -87,7 +90,9 @@
 
 /* Tablet Layout: 768px-991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+    .protection_plat_wrapper {
+        margin-bottom: 30px;
+    }
 }
 
 /* Tablet Layout: 768px-991px End */
@@ -151,10 +156,6 @@
 
     .sanchay h2 {
         text-align: center;
-    }
-
-    .policy_body_wrapper img {
-        margin-top: 50px;
     }
 
 }

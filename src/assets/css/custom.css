@@ -502,6 +502,7 @@ a.shancay_details {
 
 .sanchay_button {
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .sanchay_button span a {
@@ -1186,6 +1187,7 @@ h2.call_to_action_title {
 
 .footer_menu ul li {
     list-style: none;
+    line-height: 3;
 }
 
 .footer_menu ul li a {
