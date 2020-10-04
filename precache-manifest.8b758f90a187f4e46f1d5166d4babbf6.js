@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dc49792de05c81e8e14b55d603fe3c5",
+    "revision": "4d47f7fcfba8dce931527bdc4f093364",
     "url": "/beatnik-tech/index.html"
   },
   {
-    "revision": "ec85fc3b52461cb17344",
+    "revision": "fde9331672b83e84cb93",
     "url": "/beatnik-tech/static/css/2.578e4e32.chunk.css"
   },
   {
-    "revision": "4b622de5a3c5a3f942ea",
-    "url": "/beatnik-tech/static/css/main.ad8c73c0.chunk.css"
+    "revision": "8b9878a25c9868bc9102",
+    "url": "/beatnik-tech/static/css/main.4c735f5f.chunk.css"
   },
   {
-    "revision": "ec85fc3b52461cb17344",
-    "url": "/beatnik-tech/static/js/2.d1c17b32.chunk.js"
+    "revision": "fde9331672b83e84cb93",
+    "url": "/beatnik-tech/static/js/2.99685a71.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/beatnik-tech/static/js/2.d1c17b32.chunk.js.LICENSE.txt"
+    "url": "/beatnik-tech/static/js/2.99685a71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b622de5a3c5a3f942ea",
-    "url": "/beatnik-tech/static/js/main.186d9864.chunk.js"
+    "revision": "8b9878a25c9868bc9102",
+    "url": "/beatnik-tech/static/js/main.027f81de.chunk.js"
   },
   {
     "revision": "5e56e71c3c0799980f80",
