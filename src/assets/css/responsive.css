@@ -69,7 +69,7 @@
     }
 
     .insurance_title {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .insurance_bg {
@@ -83,23 +83,157 @@
     .policy_body_wrapper img {
         display: none;
     }
+
+    .advice_box h2, .service_box h2 {
+        font-size: 24px;
+    }
+
+    .advice_box span {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .all_services {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .service_item a {
+        font-size: 16px;
+    }
+
+    .product_top h2, .news_top h2 {
+        font-size: 24px;
+    }
+
+    .news_top {
+        padding-bottom: 20px;
+    }
+
+    .recent_news h3 {
+        font-size: 24px;
+    }
+
+    .news_box {
+        margin-bottom: 30px;
+        height: unset;
+    }
+
+    .award_section {
+        padding: 50px 0px;
+    }
+
+    a.news_all_button {
+        margin-bottom: 50px;
+        margin-top: 20px
+    }
+
+    .award_title h2 {
+        font-size: 24px;
+    }
+
+    .award_box h4 {
+        font-size: 16px;
+    }
+
+    .award_box {
+        margin-top: 30px;
+    }
+
+    .footer_section {
+        padding-top: 50px;
+    }
+
+    .services_custom_width {
+        padding: 0px 0px;
+    }
+
+    .footer_logo {
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer_menu_title {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .nav_right {
+        margin-top: 20px;
+    }
+
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */
 
 
-/* Tablet Layout: 768px-991px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .protection_plat_wrapper {
-        margin-bottom: 30px;
-    }
-}
-
-/* Tablet Layout: 768px-991px End */
-
-
 /* Mobile Layout: 0px-767px */
 @media only screen and (max-width: 767px) {
+    a.news_all_button {
+        margin-bottom: 50px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .news_text p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .news_text h2, .recent_news {
+        font-size: 20px;
+    }
+
+    .advice_box {
+        height: unset;
+        margin-bottom: 30px;
+    }
+
+    .news_box {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .news_top {
+        padding-top: 20px;
+    }
+
+    .services_custom_width {
+        padding: 30px 0px;
+    }
+
+    .call_action_item select, .call_action_item input, .call_action_item button {
+        padding: 15px;
+    }
+
+    .insurance_learn_more_button span {
+        height: 20px;
+        width: 20px;
+    }
+
+    .insurance_box_title h3 {
+        font-size: 18px;
+    }
+
+    a.insurance_box_button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .insurance_box {
+        margin-bottom: 15px;
+    }
+
+    .sanchay p {
+        font-size: 16px;
+    }
+
     .banner_bottom_title {
         font-size: 24px;
     }
@@ -126,8 +260,6 @@
     }
 
     a.view_all_button {
-        font-size: 14px;
-        padding: 12px 20px;
         margin-top: 30px;
     }
 
@@ -135,9 +267,23 @@
         text-align: center;
     }
 
+    .policy_plan {
+        margin: 25px auto;
+    }
+
 }
 
 /* Mobile Layout: 0px-767px End */
+
+
+/* Tablet Layout: 768px-991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .protection_plat_wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+/* Tablet Layout: 768px-991px End */
 
 
 /* Wide Mobile Layout: 576px-767px Start */
@@ -149,6 +295,30 @@
 
 /* Small Devices: 0px-575px Start */
 @media only screen and (max-width: 575px) {
+    .recent_img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .recent_news_item a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .call_action_item select, .call_action_item input, .call_action_item button {
+        padding: 10px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    h2.call_to_action_title {
+        font-size: 18px;
+    }
+
+    .sanchay_button {
+        padding-bottom: 20px;
+    }
+
     .policy_menu {
         min-height: auto;
         padding: 40px 0px;
@@ -158,6 +328,38 @@
         text-align: center;
     }
 
+    .banner_bottom_title {
+        font-size: 20px;
+    }
+
+    .policy_item h3 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .award_box h4 {
+        font-size: 14px;
+    }
+
+    .award_box {
+        padding: 25px;
+    }
+
+    .copyright_section li {
+        padding: 0px;
+    }
+
+    .copyright_right {
+        margin-top: 10px;
+    }
+
+    .nav_right a {
+        margin: 10px;
+    }
+
+    .nav_right {
+        justify-content: unset;
+    }
 }
 
 /* Small Devices: 0px-575px End */

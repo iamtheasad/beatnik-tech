@@ -54,7 +54,7 @@ class Footer extends Component {
                                 </Col>
                                 <Col lg={8}>
                                     <Row>
-                                        <Col lg={3} md={4} sm={12}>
+                                        <Col lg={3} md={6} sm={12}>
                                             <div className="footer_menu">
                                                 <ul>
                                                     <li className="footer_menu_title">Products</li>
@@ -82,7 +82,7 @@ class Footer extends Component {
                                                 </ul>
                                             </div>
                                         </Col>
-                                        <Col lg={3} md={4} sm={12}>
+                                        <Col lg={3} md={6} sm={12}>
                                             <div className="footer_menu">
                                                 <ul>
                                                     <li className="footer_menu_title">Products</li>
@@ -110,7 +110,7 @@ class Footer extends Component {
                                                 </ul>
                                             </div>
                                         </Col>
-                                        <Col lg={3} md={4} sm={12}>
+                                        <Col lg={3} md={6} sm={12}>
                                             <div className="footer_menu">
                                                 <ul>
                                                     <li className="footer_menu_title">Products</li>
@@ -138,7 +138,7 @@ class Footer extends Component {
                                                 </ul>
                                             </div>
                                         </Col>
-                                        <Col lg={3} md={4} sm={12}>
+                                        <Col lg={3} md={6} sm={12}>
                                             <div className="footer_menu">
                                                 <ul>
                                                     <li className="footer_menu_title">Products</li>

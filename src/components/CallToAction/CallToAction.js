@@ -11,12 +11,12 @@ class CallToAction extends Component {
                     <div className="section_width">
                         <Container>
                             <Row>
-                                <Col lg={4} md={6} sm={12} className="offset-md-5 offset-lg-8">
+                                <Col lg={4} md={12} sm={12} className="offset-lg-8">
                                     <h2 className="call_to_action_title">Get an instant quote from Dhaka leading
                                         insurers now.</h2>
                                     <div className="call_action_item">
                                         <select id="cars">
-                                            <optgroup label="Select Years">
+                                            <optgroup label="Select Year">
                                                 <option value="volvo">Year</option>
                                                 <option value="saab">2010</option>
                                                 <option value="saab">2011</option>
@@ -24,7 +24,7 @@ class CallToAction extends Component {
                                             </optgroup>
                                         </select>
                                         <select id="cars">
-                                            <optgroup label="Select Years">
+                                            <optgroup label="Select Brand">
                                                 <option value="volvo">Brand</option>
                                                 <option value="saab">Brand4</option>
                                                 <option value="saab">Brand2</option>
@@ -32,7 +32,7 @@ class CallToAction extends Component {
                                             </optgroup>
                                         </select>
                                         <select id="cars">
-                                            <optgroup label="Select Years">
+                                            <optgroup label="Select Model">
                                                 <option value="volvo">Model</option>
                                                 <option value="saab">Model4</option>
                                                 <option value="saab">Model2</option>
@@ -40,7 +40,7 @@ class CallToAction extends Component {
                                             </optgroup>
                                         </select>
                                         <select id="cars">
-                                            <optgroup label="Select Years">
+                                            <optgroup label="Select Sub Model">
                                                 <option value="volvo">Submodel</option>
                                                 <option value="saab">Submodel2</option>
                                                 <option value="saab">Submodel3</option>

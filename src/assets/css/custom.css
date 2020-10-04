@@ -88,8 +88,6 @@ img.navLogo {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    display: flex;
-    align-items: center;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -682,7 +680,7 @@ a.news_all_button {
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: .2;
+    opacity: .5;
 }
 
 .insurance_width {
@@ -691,7 +689,7 @@ a.news_all_button {
 }
 
 .insurance_title {
-    color: #002287;
+    color: #fff;
     font-size: 45px;
     text-align: center;
     padding-bottom: 20px;
@@ -988,6 +986,7 @@ h2.call_to_action_title {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .news_box {
@@ -1089,6 +1088,15 @@ h2.call_to_action_title {
     position: relative;
     text-align: center;
     margin-top: 50px;
+    padding: 50px;
+}
+
+.award_box h4 {
+    font-size: 18px;
+    color: #5eaaff;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .award_icon {
@@ -1103,20 +1111,9 @@ h2.call_to_action_title {
     transform: translateX(-50%);
 }
 
-.award_box {
-    padding: 50px;
-}
-
-.award_box h4 {
-    font-size: 18px;
-    color: #5eaaff;
-    font-weight: 500;
-    padding-top: 20px;
-    text-align: center;
-}
-
 .awar_imag {
     margin-top: 30px;
+    width: 100%;
 }
 
 .award_title h2 {
