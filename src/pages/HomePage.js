@@ -8,6 +8,7 @@ import CallToAction from "../components/CallToAction/CallToAction";
 import Services from "../components/Services/Services";
 import NewsEvent from "../components/NewsEvent/NewsEvent";
 import Awards from "../components/Awards/Awards";
+import Footer from "../components/Footer/Footer";
 
 class HomePage extends Component {
     render() {
@@ -22,6 +23,7 @@ class HomePage extends Component {
                 <Services/>
                 <NewsEvent/>
                 <Awards/>
+                <Footer/>
             </>
         );
     }

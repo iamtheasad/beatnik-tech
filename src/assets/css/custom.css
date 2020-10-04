@@ -29,6 +29,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -732,6 +737,12 @@ a.insurance_box_button {
     display: inline-block;
     margin-top: 10px;
     font-size: 18px;
+    transition: .2s;
+}
+
+a.insurance_box_button:hover {
+    color: #fff;
+    background-color: #0177c9;
 }
 
 .insurance_learn_more_button span {
@@ -817,6 +828,11 @@ h2.call_to_action_title {
     background: #f05000;
     color: #fff;
     font-size: 18px;
+    transition: .2s;
+}
+
+.call_action_item button:hover {
+    background: #d45a1d;
 }
 
 .call_action_item input::-webkit-input-placeholder {
@@ -1068,8 +1084,9 @@ h2.call_to_action_title {
 .award_icon {
     position: absolute;
     top: 2%;
-    left: 45%;
+    left: 50%;
     width: 41px;
+    transform: translateX(-50%);
 }
 
 .award_box {
@@ -1096,4 +1113,148 @@ h2.call_to_action_title {
 
 /**************************************
         Award Section End
+***************************************/
+
+
+/**************************************
+       Footer Section Start
+***************************************/
+.footer_section {
+    padding-top: 75px;
+    background: #e5e5e5;
+}
+
+.footer_section .services_custom_width {
+    padding-bottom: 0px;
+}
+
+.footer_logo {
+    margin-bottom: 240px;
+}
+
+.footer_contact strong {
+    width: 58px;
+    height: 58px;
+    display: inline-flex;
+    background: #e87722;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contact span {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.footer_border {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #d4d4d4;
+    height: 2px;
+}
+
+.footer_social {
+    margin-bottom: 30px;
+}
+
+.footer_social a {
+    background-color: #fff;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    transition: .2s;
+}
+
+.footer_social a:hover {
+    background-color: #e87722;
+}
+
+.footer_menu_title {
+    color: #e87721;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 25px;
+    pointer-events: none;
+}
+
+.footer_menu ul li {
+    list-style: none;
+}
+
+.footer_menu ul li a {
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    word-spacing: 6px;
+    line-height: 1.7;
+}
+
+.footer_menu ul li:hover a {
+    color: #e87721;
+}
+
+.copyright_section li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 12px;
+    padding: 5px;
+}
+
+.copyright_section li a {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.copyright_section li:hover a {
+    color: #e87722;
+}
+
+.copyright_section li strong {
+    width: 2px;
+    height: 55%;
+    background: #666666;
+    display: block;
+    position: absolute;
+    top: 24%;
+}
+
+.copyright_section ul {
+    position: relative;
+}
+
+.copyright_right {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: .5px;
+    padding: 5px;
+}
+
+.copyright_right a {
+    color: #333;
+    transition: .2s;
+}
+
+.copyright_right a:hover {
+    color: #e87722;
+}
+
+.copyright_border {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+/**************************************
+       Footer Section End
 ***************************************/
