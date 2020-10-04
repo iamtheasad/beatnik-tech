@@ -19,7 +19,9 @@ class Footer extends Component {
                         <Container fluid>
                             <Row className="footer_wrapper">
                                 <Col lg={4}>
-                                    <img className="footer_logo" src={Logo} alt="Footer Logo"/>
+                                    <a href="#">
+                                        <img className="footer_logo" src={Logo} alt="Footer Logo"/>
+                                    </a>
                                     <div className="footer_contact">
                                         <strong>
                                             <CallIcon style={{fontSize: "30px", color: "#fff"}}>Call</CallIcon>

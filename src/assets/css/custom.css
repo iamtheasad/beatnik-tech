@@ -1,7 +1,7 @@
 /*Default CSS*/
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     color: #999999;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,16 +55,16 @@ a:focus {
      Navigation Start
 ***************************************/
 #header_menu_section {
-    max-width: 1825px;
+    max-width: 114.0625rem;
     background-color: #fff;
-    -webkit-border-radius: 0px 0px 0px 30px;
-    -moz-border-radius: 0px 0px 0px 30px;
-    border-radius: 0px 0px 0px 30px;
+    -webkit-border-radius: 0rem 0rem 0rem 1.875rem;
+    -moz-border-radius: 0rem 0rem 0rem 1.875rem;
+    border-radius: 0rem 0rem 0rem 1.875rem;
     margin: 0 auto;
 }
 
 img.navLogo {
-    width: 147px;
+    width: 9.1875rem;
 }
 
 .header_menu a {
@@ -91,7 +91,7 @@ img.navLogo {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    width: 300px;
+    width: 18.75rem;
 }
 
 .language {
@@ -111,24 +111,24 @@ img.navLogo {
 
 .header_arrow_1 {
     position: absolute;
-    left: 20px;
-    top: -5px;
+    left: 1.25rem;
+    top: -0.3125rem;
 }
 
 .header_arrow_2 {
     position: absolute;
-    left: 20px;
-    bottom: -3px;
+    left: 1.25rem;
+    bottom: -0.1875rem;
 }
 
 a.login {
     text-decoration: none;
     color: #fff !important;
     background-color: #e87722;
-    padding: 14px 24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    padding: 0.875rem 1.5rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
     text-transform: capitalize;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -138,9 +138,9 @@ a.login {
     content: '';
     position: absolute;
     background: #e6e6e6;
-    width: 1px;
+    width: 0.0625rem;
     height: 100%;
-    left: -17px;
+    left: -1.0625rem;
 }
 
 .nav_right a {
@@ -152,7 +152,7 @@ a.login {
     position: absolute;
     content: '';
     background: #e6e6e6;
-    width: 1px;
+    width: 0.0625rem;
     height: 100%;
 }
 
@@ -175,7 +175,7 @@ a.login {
      Header Banner Section Start
 ***************************************/
 .section_width {
-    max-width: 1530px;
+    max-width: 95.625rem;
     margin: 0 auto;
 }
 
@@ -188,15 +188,15 @@ a.login {
 }
 
 .protection_plan_box img {
-    width: 70px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 4.375rem;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
 }
 
 .protection_plan h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #fffc01;
-    padding-top: 25px;
+    padding-top: 1.5625rem;
 }
 
 .protection_plan {
@@ -212,8 +212,8 @@ a.login {
     -moz-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-width: 300px;
-    margin: 20px;
+    max-width: 18.75rem;
+    margin: 1.25rem;
     text-align: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -238,7 +238,7 @@ a.login {
     -moz-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 730px;
+    height: 45.625rem;
 }
 
 .protection_plat_wrapper {
@@ -250,21 +250,21 @@ a.login {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    max-width: 900px;
-    padding-bottom: 100px;
+    max-width: 56.25rem;
+    padding-bottom: 6.25rem;
 }
 
 .protect_title {
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #0404ab;
     background-color: #e5e5ff;
     display: block;
-    padding: 15px 15px 15px 0px;
+    padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
     max-width: 78%;
     -webkit-border-radius: 20%;
     -moz-border-radius: 20%;
     border-radius: 20%;
-    margin-bottom: 85px;
+    margin-bottom: 5.3125rem;
 }
 
 .protection_plan_box img {
@@ -273,9 +273,9 @@ a.login {
 
 .protection_plan_box h4 {
     color: #fff;
-    font-size: 12px;
+    font-size: 0.75rem;
     background-color: #232075;
-    padding: 7px;
+    padding: 0.4375rem;
     -webkit-border-radius: 20% 20% 0 0;
     -moz-border-radius: 20% 20% 0 0;
     border-radius: 20% 20% 0 0;
@@ -289,9 +289,9 @@ a.login {
 }
 
 .banner_bottom {
-    padding: 35px 20px;
+    padding: 2.1875rem 1.25rem;
     background-color: #fff;
-    max-width: 1010px;
+    max-width: 63.125rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -306,9 +306,9 @@ a.login {
     position: absolute;
     width: 100%;
     bottom: -17%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -324,13 +324,13 @@ a.login {
     display: -ms-flexbox;
     display: flex;
     background-color: #fff;
-    padding: 30px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: 1px 5px 9px -3px #d1d1d1;
-    -moz-box-shadow: 1px 5px 9px -3px #d1d1d1;
-    box-shadow: 1px 5px 9px -3px #d1d1d1;
+    padding: 1.875rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
+    -webkit-box-shadow: 0.0625rem 0.3125rem 0.5625rem -0.1875rem #d1d1d1;
+    -moz-box-shadow: 0.0625rem 0.3125rem 0.5625rem -0.1875rem #d1d1d1;
+    box-shadow: 0.0625rem 0.3125rem 0.5625rem -0.1875rem #d1d1d1;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -340,35 +340,35 @@ a.login {
 .banner_bottom_right_wrapper span a {
     color: #f7941e;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 12px -2px #d1d1d1;
-    -moz-box-shadow: 0px 0px 12px -2px #d1d1d1;
-    box-shadow: 0px 0px 12px -2px #d1d1d1;
-    padding: 10px;
-    margin-bottom: 10px;
+    -webkit-box-shadow: 0rem 0rem 0.75rem -0.125rem #d1d1d1;
+    -moz-box-shadow: 0rem 0rem 0.75rem -0.125rem #d1d1d1;
+    box-shadow: 0rem 0rem 0.75rem -0.125rem #d1d1d1;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
     display: inline-block;
 }
 
 .banner_bottom_right_wrapper h4 {
     color: #2c302e;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .banner_bottom_title {
     float: left;
-    line-height: 55px;
-    font-size: 32px;
-    padding-left: 20px;
+    line-height: 3.4375rem;
+    font-size: 2rem;
+    padding-left: 1.25rem;
     color: #2c302e;
 }
 
 .bottom_search_icon {
     float: left;
     background: #f7941e;
-    padding: 10px;
+    padding: 0.625rem;
     color: #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+    border-radius: 0.3125rem;
 }
 
 .banner_bottom_left {
@@ -389,17 +389,17 @@ a.login {
 }
 
 .banner_section .slick-next {
-    right: 10px;
+    right: 0.625rem;
 }
 
 .banner_section .slick-prev {
-    left: 10px;
+    left: 0.625rem;
 }
 
 .slick-next,
 .slick-prev {
     z-index: 10;
-    width: 80px !important;
+    width: 5rem !important;
 }
 
 .banner_section .slick-next:before {
@@ -419,14 +419,14 @@ a.login {
     Policy Plan Start
 ***************************************/
 .policy_plan {
-    max-width: 1270px;
-    margin: 160px auto;
-    margin-bottom: 50px;
+    max-width: 79.375rem;
+    margin: 10rem auto;
+    margin-bottom: 3.125rem;
 }
 
 .policy_item h3 {
-    font-size: 24px;
-    padding-left: 20px;
+    font-size: 1.5rem;
+    padding-left: 1.25rem;
 }
 
 .policy_item {
@@ -462,22 +462,22 @@ a.login {
 }
 
 .policy_item_1, .policy_item_2, .policy_item_3 {
-    padding: 40px 30px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    padding: 2.5rem 1.875rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
 }
 
 .sanchay h2 {
     color: #4e4e4e;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .sanchay p {
     color: #4e4e4e;
-    font-size: 18px;
-    letter-spacing: 0.4px;
-    padding: 40px 0px;
+    font-size: 1.125rem;
+    letter-spacing: 0.025rem;
+    padding: 2.5rem 0rem;
     font-weight: 500;
 }
 
@@ -485,7 +485,7 @@ a.shancay_details {
     text-decoration: none;
     color: #4e4e4e;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -499,25 +499,25 @@ a.shancay_details {
 }
 
 .sanchay_button {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
     text-align: center;
 }
 
 .sanchay_button span a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #4e4e4e;
     font-weight: 500;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     background-color: transparent;
     -webkit-transition: .3s;
     -o-transition: .3s;
     -moz-transition: .3s;
     transition: .3s;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+    border-radius: 0.3125rem;
     display: block;
-    margin-top: 45px;
+    margin-top: 2.8125rem;
     text-align: center;
 }
 
@@ -527,7 +527,7 @@ a.shancay_details {
 }
 
 .product_top h2, .news_top h2 {
-    font-size: 45px;
+    font-size: 2.8125rem;
     color: #2c302e;
 }
 
@@ -538,47 +538,47 @@ a.shancay_details {
 
 .product_top p {
     color: #4e4e4e;
-    font-size: 18px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    font-size: 1.125rem;
+    padding-top: 1.875rem;
+    padding-bottom: 2.5rem;
 }
 
 .our_product_section {
-    padding-top: 140px;
-    padding-bottom: 60px;
+    padding-top: 8.75rem;
+    padding-bottom: 3.75rem;
     background-color: #f3f3f3;
 }
 
 .policy_body_wrapper {
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 20px 0px #d1d1d1;
-    -moz-box-shadow: 0px 0px 20px 0px #d1d1d1;
-    box-shadow: 0px 0px 20px 0px #d1d1d1;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-box-shadow: 0rem 0rem 1.25rem 0rem #d1d1d1;
+    -moz-box-shadow: 0rem 0rem 1.25rem 0rem #d1d1d1;
+    box-shadow: 0rem 0rem 1.25rem 0rem #d1d1d1;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
 }
 
 .policy_body_wrapper img {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    height: 637px;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    height: 39.8125rem;
     -o-object-fit: cover;
     object-fit: cover;
 }
 
 a.view_all_button, a.news_all_button {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #fff;
     background-color: #232075;
-    padding: 20px 45px;
+    padding: 1.25rem 2.8125rem;
     display: inline-block;
-    margin-top: 50px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
+    margin-top: 3.125rem;
+    -webkit-border-radius: 2.1875rem;
+    -moz-border-radius: 2.1875rem;
+    border-radius: 2.1875rem;
     -webkit-transition: .2s;
     -o-transition: .2s;
     -moz-transition: .2s;
@@ -591,33 +591,33 @@ a.news_all_button:hover {
 }
 
 a.news_all_button {
-    padding: 20px 80px;
-    margin-bottom: 75px;
+    padding: 1.25rem 5rem;
+    margin-bottom: 4.6875rem;
 }
 
 .policy_menu {
     background-color: #2c302e;
-    min-height: 637px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    min-height: 39.8125rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
 }
 
 .policy_menu.nav-pills .nav-link.active, .policy_menu.nav-pills .show > .nav-link {
     background-color: transparent !important;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
 .policy_menu.nav-pills .nav-link {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
     text-align: center;
     line-height: 1.7;
-    margin: 20px 0px;
-    padding: 5px;
+    margin: 1.25rem 0rem;
+    padding: 0.3125rem;
 }
 
 .policy_body_wrapper .slick-next {
@@ -633,7 +633,7 @@ a.news_all_button {
 .policy_body_wrapper .slick-next,
 .policy_body_wrapper .slick-prev {
     z-index: 10;
-    width: 20px !important;
+    width: 1.25rem !important;
 }
 
 .policy_body_wrapper .slick-next:before {
@@ -666,7 +666,7 @@ a.news_all_button {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-top: 90px;
+    padding-top: 5.625rem;
     position: relative;
     z-index: 1;
 }
@@ -684,58 +684,58 @@ a.news_all_button {
 }
 
 .insurance_width {
-    max-width: 1336px;
+    max-width: 83.5rem;
     margin: 0 auto;
 }
 
 .insurance_title {
     color: #fff;
-    font-size: 45px;
+    font-size: 2.8125rem;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .insurance_box {
     background-color: #fff;
-    border: 2px solid #ececec;
-    margin-bottom: 80px;
+    border: 0.125rem solid #ececec;
+    margin-bottom: 5rem;
 }
 
 .insurance_box_title {
     background-color: #f8f8f8;
     text-align: center;
-    padding: 30px;
+    padding: 1.875rem;
     color: #1165ad;
-    border-bottom: 2px solid #ececec;
+    border-bottom: 0.125rem solid #ececec;
 }
 
 .insurance_box_title h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .isnurance_box_body {
-    padding: 25px;
+    padding: 1.5625rem;
 }
 
 .isnurance_box_body p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #4e4e4e;
     font-weight: 500;
-    line-height: 29px;
+    line-height: 1.8125rem;
 }
 
 a.insurance_box_button {
     text-decoration: none;
     color: #0177c9;
     background: transparent;
-    padding: 15px 20px;
-    border: 1px solid #0177c9;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    padding: 0.9375rem 1.25rem;
+    border: 0.0625rem solid #0177c9;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
     display: inline-block;
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 0.625rem;
+    font-size: 1.125rem;
     -webkit-transition: .2s;
     -o-transition: .2s;
     -moz-transition: .2s;
@@ -752,8 +752,8 @@ a.insurance_box_button:hover {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    height: 25px;
-    width: 25px;
+    height: 1.5625rem;
+    width: 1.5625rem;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -moz-inline-box;
@@ -788,7 +788,7 @@ a.insurance_box_button:hover {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding: 50px 0px;
+    padding: 3.125rem 0rem;
     position: relative;
     z-index: 1;
 }
@@ -807,29 +807,29 @@ a.insurance_box_button:hover {
 
 .call_action_item select, .call_action_item input, .call_action_item button {
     width: 100%;
-    padding: 20px;
-    margin: 10px;
-    -webkit-box-shadow: 0px 1px 6px 0px #5d5d5d;
-    -moz-box-shadow: 0px 1px 6px 0px #5d5d5d;
-    box-shadow: 0px 1px 6px 0px #5d5d5d;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    padding: 1.25rem;
+    margin: 0.625rem;
+    -webkit-box-shadow: 0rem 0.0625rem 0.375rem 0rem #5d5d5d;
+    -moz-box-shadow: 0rem 0.0625rem 0.375rem 0rem #5d5d5d;
+    box-shadow: 0rem 0.0625rem 0.375rem 0rem #5d5d5d;
+    -webkit-border-radius: 1.875rem;
+    -moz-border-radius: 1.875rem;
+    border-radius: 1.875rem;
     outline: none;
     border: none;
     font-weight: 500;
 }
 
 h2.call_to_action_title {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .call_action_item button {
     background: #f05000;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     -webkit-transition: .2s;
     -o-transition: .2s;
     -moz-transition: .2s;
@@ -873,9 +873,9 @@ h2.call_to_action_title {
     Our Services Start
 ***************************************/
 .services_custom_width {
-    max-width: 1770px;
+    max-width: 110.625rem;
     margin: 0 auto;
-    padding: 80px 0px;
+    padding: 5rem 0rem;
 }
 
 .advice_box {
@@ -884,14 +884,14 @@ h2.call_to_action_title {
     background: -moz-linear-gradient(45deg, rgb(255 146 93) 20%, rgb(255 189 77) 100%);
     background: -o-linear-gradient(45deg, rgb(255 146 93) 20%, rgb(255 189 77) 100%);
     background: linear-gradient(45deg, rgb(255 146 93) 20%, rgb(255 189 77) 100%);
-    padding: 45px 20px;
+    padding: 2.8125rem 1.25rem;
     color: #fff;
     text-align: center;
     height: 100%;
 }
 
 .advice_box h2, .service_box h2 {
-    font-size: 45px;
+    font-size: 2.8125rem;
 }
 
 .service_box {
@@ -901,29 +901,29 @@ h2.call_to_action_title {
     background: -moz-linear-gradient(left, #1694a0 0%, #27c7c4 100%);
     background: -o-linear-gradient(left, #1694a0 0%, #27c7c4 100%);
     background: linear-gradient(90deg, #1694a0 0%, #27c7c4 100%);
-    padding: 45px 35px;
+    padding: 2.8125rem 2.1875rem;
     text-align: center;
     color: #fff;
     height: 100%;
 }
 
 .advice_box span {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .advice_button a,
 .services_button a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
-    border: 1px solid #fff;
-    padding: 10px 15px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    border: 0.0625rem solid #fff;
+    padding: 0.625rem 0.9375rem;
+    -webkit-border-radius: 1.875rem;
+    -moz-border-radius: 1.875rem;
+    border-radius: 1.875rem;
     background: transparent;
     -webkit-transition: .2s;
     -o-transition: .2s;
@@ -942,7 +942,7 @@ h2.call_to_action_title {
 }
 
 .service_icon {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .all_services {
@@ -954,14 +954,14 @@ h2.call_to_action_title {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 3.75rem;
+    padding-bottom: 4.375rem;
 }
 
 .service_item a {
-    font-size: 20px;
+    font-size: 1.25rem;
     display: block;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 
@@ -974,39 +974,39 @@ h2.call_to_action_title {
    News Event Start
 ***************************************/
 .news_top {
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
     text-align: center;
 }
 
 .news_top {
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
 }
 
 .news_img {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
     width: 100%;
 }
 
 .news_box {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    -webkit-box-shadow: 1px 2px 16px #d1d1d1;
-    -moz-box-shadow: 1px 2px 16px #d1d1d1;
-    box-shadow: 1px 2px 16px #d1d1d1;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    -webkit-box-shadow: 0.0625rem 0.125rem 1rem #d1d1d1;
+    -moz-box-shadow: 0.0625rem 0.125rem 1rem #d1d1d1;
+    box-shadow: 0.0625rem 0.125rem 1rem #d1d1d1;
     height: 100%;
-    margin-bottom: 65px;
+    margin-bottom: 4.0625rem;
 }
 
 .news_text {
-    padding: 45px 30px;
+    padding: 2.8125rem 1.875rem;
 }
 
 .news_text h2,
 .recent_news {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #000;
     font-weight: 600;
 }
@@ -1016,47 +1016,47 @@ h2.call_to_action_title {
 }
 
 .news_text p {
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 1rem;
+    letter-spacing: 0.0625rem;
     font-weight: 500;
     color: #4e4e4e;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .recent_news {
-    padding: 25px;
+    padding: 1.5625rem;
 }
 
 .recent_news h3 {
-    padding-bottom: 2px;
+    padding-bottom: 0.125rem;
     display: inline-block;
 }
 
 .recent_border {
     background-color: #ececec;
     width: 100%;
-    height: 1px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    height: 0.0625rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
     display: block;
 }
 
 .recent_img {
     width: 25%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
 }
 
 .recent_news_item a {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #4e4e4e;
     font-weight: 500;
     font-family: inherit;
 }
 
 .recent_news_item a span {
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 
@@ -1070,11 +1070,11 @@ h2.call_to_action_title {
 ***************************************/
 .award_section {
     background-color: #e3f5f5;
-    padding: 122px 0px;
+    padding: 7.625rem 0rem;
 }
 
 .awards_section_width {
-    max-width: 1412px;
+    max-width: 88.25rem;
     margin: 0 auto;
 }
 
@@ -1087,15 +1087,15 @@ h2.call_to_action_title {
     background-position: center;
     position: relative;
     text-align: center;
-    margin-top: 50px;
-    padding: 50px;
+    margin-top: 3.125rem;
+    padding: 3.125rem;
 }
 
 .award_box h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #5eaaff;
     font-weight: 500;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     text-align: center;
 }
 
@@ -1103,7 +1103,7 @@ h2.call_to_action_title {
     position: absolute;
     top: 2%;
     left: 50%;
-    width: 41px;
+    width: 2.5625rem;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -1112,13 +1112,13 @@ h2.call_to_action_title {
 }
 
 .awar_imag {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     width: 100%;
 }
 
 .award_title h2 {
     color: #47609c;
-    font-size: 35px;
+    font-size: 2.1875rem;
     text-align: center;
 }
 
@@ -1131,21 +1131,21 @@ h2.call_to_action_title {
        Footer Section Start
 ***************************************/
 .footer_section {
-    padding-top: 75px;
+    padding-top: 4.6875rem;
     background: #e5e5e5;
 }
 
 .footer_section .services_custom_width {
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
 }
 
 .footer_logo {
-    margin-bottom: 240px;
+    margin-bottom: 15rem;
 }
 
 .footer_contact strong {
-    width: 58px;
-    height: 58px;
+    width: 3.625rem;
+    height: 3.625rem;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -moz-inline-box;
@@ -1168,27 +1168,27 @@ h2.call_to_action_title {
 }
 
 .footer_contact span {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #333333;
     font-weight: 700;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .footer_border {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
     background-color: #d4d4d4;
-    height: 2px;
+    height: 0.125rem;
 }
 
 .footer_social {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .footer_social a {
     background-color: #fff;
-    width: 58px;
-    height: 58px;
+    width: 3.625rem;
+    height: 3.625rem;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1207,7 +1207,7 @@ h2.call_to_action_title {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 6px;
+    margin: 0.375rem;
     -webkit-transition: .2s;
     -o-transition: .2s;
     -moz-transition: .2s;
@@ -1221,8 +1221,8 @@ h2.call_to_action_title {
 .footer_menu_title {
     color: #e87721;
     font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 25px;
+    font-size: 0.9375rem;
+    margin-bottom: 1.5625rem;
     pointer-events: none;
 }
 
@@ -1234,8 +1234,8 @@ h2.call_to_action_title {
 .footer_menu ul li a {
     color: #333;
     font-weight: 500;
-    letter-spacing: 0.5px;
-    word-spacing: 6px;
+    letter-spacing: 0.0313rem;
+    word-spacing: 0.375rem;
     line-height: 1.7;
 }
 
@@ -1246,13 +1246,13 @@ h2.call_to_action_title {
 .copyright_section li {
     list-style: none;
     display: inline-block;
-    margin-right: 12px;
-    padding: 5px;
+    margin-right: 0.75rem;
+    padding: 0.3125rem;
 }
 
 .copyright_section li a {
     color: #666666;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
     font-family: inherit;
     text-decoration: none;
@@ -1267,7 +1267,7 @@ h2.call_to_action_title {
 }
 
 .copyright_section li strong {
-    width: 2px;
+    width: 0.125rem;
     height: 55%;
     background: #666666;
     display: block;
@@ -1280,11 +1280,11 @@ h2.call_to_action_title {
 }
 
 .copyright_right {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
     font-family: inherit;
-    letter-spacing: .5px;
-    padding: 5px;
+    letter-spacing: 0.0313rem;
+    padding: 0.3125rem;
 }
 
 .copyright_right a {
@@ -1300,8 +1300,8 @@ h2.call_to_action_title {
 }
 
 .copyright_border {
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 1.25rem;
+    margin-top: 0rem;
 }
 
 /**************************************
