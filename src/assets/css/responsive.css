@@ -16,7 +16,7 @@
 @media only screen and (max-width: 991px) {
     .protection_plat_wrapper {
         flex-wrap: wrap;
-        margin-top: 150px;
+        margin-top: 9.375rem; /* 150px */
     }
 
     .protection_box {
@@ -28,35 +28,35 @@
     }
 
     .policy_item {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
     }
 
     .our_product_section {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 3.125rem; /* 50px */
+        padding-bottom: 3.125rem; /* 50px */
     }
 
     .product_top h2 {
-        font-size: 32px;
+        font-size: 2rem; /* 32px */
     }
 
     .sanchay p {
-        padding: 20px 20px;
+        padding: 1.25rem 1.25rem; /* 20px 20px */
     }
 
     .sanchay h2 {
-        padding-top: 30px;
+        padding-top: 1.875rem; /* 30px */
     }
 
     .sanchay_button {
-        padding-bottom: 0px;
+        padding-bottom: 0rem; /* 0px */
     }
 
     .sanchay_button span a {
-        margin-top: 20px;
+        margin-top: 1.25rem; /* 20px */
         color: #fff;
         background-color: #f7941e;
-        padding: 15px 15px;
+        padding: 0.9375rem 0.9375rem; /* 15px 15px */
         display: inline-block;
     }
 
@@ -69,15 +69,15 @@
     }
 
     .insurance_title {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .insurance_bg {
-        padding-top: 50px;
+        padding-top: 3.125rem; /* 50px */
     }
 
     .insurance_box {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
     }
 
     .policy_body_wrapper img {
@@ -85,72 +85,72 @@
     }
 
     .advice_box h2, .service_box h2 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .advice_box span {
-        padding-top: 20px;
-        padding-bottom: 15px;
+        padding-top: 1.25rem; /* 20px */
+        padding-bottom: 0.9375rem; /* 15px */
     }
 
     .all_services {
-        padding-top: 25px;
-        padding-bottom: 30px;
+        padding-top: 1.5625rem; /* 25px */
+        padding-bottom: 1.875rem; /* 30px */
     }
 
     .service_item a {
-        font-size: 16px;
+        font-size: 1rem; /* 16px */
     }
 
     .product_top h2, .news_top h2 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .news_top {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem; /* 20px */
     }
 
     .recent_news h3 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .news_box {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
         height: unset;
     }
 
     .award_section {
-        padding: 50px 0px;
+        padding: 3.125rem 0rem; /* 50px 0px */
     }
 
     a.news_all_button {
-        margin-bottom: 50px;
-        margin-top: 20px
+        margin-bottom: 3.125rem; /* 50px */
+        margin-top: 1.25rem /* 20px */
     }
 
     .award_title h2 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .award_box h4 {
-        font-size: 16px;
+        font-size: 1rem; /* 16px */
     }
 
     .award_box {
-        margin-top: 30px;
+        margin-top: 1.875rem; /* 30px */
     }
 
     .footer_section {
-        padding-top: 50px;
+        padding-top: 3.125rem; /* 50px */
     }
 
     .services_custom_width {
-        padding: 0px 0px;
+        padding: 0rem 0rem; /* 0px 0px */
     }
 
     .footer_logo {
-        margin-bottom: 40px;
-        margin-top: 50px;
+        margin-bottom: 2.5rem; /* 40px */
+        margin-top: 3.125rem; /* 50px */
     }
 
     .footer_wrapper {
@@ -160,12 +160,12 @@
     }
 
     .footer_menu_title {
-        margin-bottom: 0px;
-        margin-top: 20px;
+        margin-bottom: 0rem; /* 0px */
+        margin-top: 1.25rem; /* 20px */
     }
 
     .nav_right {
-        margin-top: 20px;
+        margin-top: 1.25rem; /* 20px */
     }
 
 }
@@ -176,66 +176,66 @@
 /* Mobile Layout: 0px-767px */
 @media only screen and (max-width: 767px) {
     a.news_all_button {
-        margin-bottom: 50px;
-        margin-top: 0px;
-        font-size: 14px;
+        margin-bottom: 3.125rem; /* 50px */
+        margin-top: 0rem; /* 0px */
+        font-size: 0.875rem; /* 14px */
     }
 
     .news_text p {
-        font-size: 15px;
-        padding-top: 10px;
+        font-size: 0.9375rem; /* 15px */
+        padding-top: 0.625rem; /* 10px */
     }
 
     .news_text h2, .recent_news {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
     }
 
     .advice_box {
         height: unset;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
     }
 
     .news_box {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
         text-align: center;
     }
 
     .news_top {
-        padding-top: 20px;
+        padding-top: 1.25rem; /* 20px */
     }
 
     .services_custom_width {
-        padding: 30px 0px;
+        padding: 1.875rem 0rem; /* 30px 0px */
     }
 
     .call_action_item select, .call_action_item input, .call_action_item button {
-        padding: 15px;
+        padding: 0.9375rem; /* 15px */
     }
 
     .insurance_learn_more_button span {
-        height: 20px;
-        width: 20px;
+        height: 1.25rem; /* 20px */
+        width: 1.25rem; /* 20px */
     }
 
     .insurance_box_title h3 {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
     }
 
     a.insurance_box_button {
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 0.625rem 0.9375rem; /* 10px 15px */
+        font-size: 0.875rem; /* 14px */
     }
 
     .insurance_box {
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem; /* 15px */
     }
 
     .sanchay p {
-        font-size: 16px;
+        font-size: 1rem; /* 16px */
     }
 
     .banner_bottom_title {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .banner_bottom {
@@ -246,11 +246,11 @@
     }
 
     .policy_plan {
-        margin: 50px auto;
+        margin: 3.125rem /* 50px */ auto;
     }
 
     .policy_menu.nav-pills .nav-link {
-        line-height: 0px;
+        line-height: 0rem; /* 0px */
     }
 
     .policy_menu {
@@ -260,7 +260,7 @@
     }
 
     a.view_all_button {
-        margin-top: 30px;
+        margin-top: 1.875rem; /* 30px */
     }
 
     h2.call_to_action_title {
@@ -268,7 +268,7 @@
     }
 
     .policy_plan {
-        margin: 25px auto;
+        margin: 1.5625rem /* 25px */ auto;
     }
 
 }
@@ -279,7 +279,7 @@
 /* Tablet Layout: 768px-991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .protection_plat_wrapper {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem; /* 30px */
     }
 }
 
@@ -297,7 +297,7 @@
 @media only screen and (max-width: 575px) {
     .recent_img {
         width: 100%;
-        padding-bottom: 10px;
+        padding-bottom: 0.625rem; /* 10px */
     }
 
     .recent_news_item a {
@@ -307,21 +307,21 @@
     }
 
     .call_action_item select, .call_action_item input, .call_action_item button {
-        padding: 10px;
-        margin: 5px 0px 5px 0px;
+        padding: 0.625rem; /* 10px */
+        margin: 0.3125rem 0rem 0.3125rem 0rem; /* 5px 0px 5px 0px */
     }
 
     h2.call_to_action_title {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
     }
 
     .sanchay_button {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem; /* 20px */
     }
 
     .policy_menu {
         min-height: auto;
-        padding: 40px 0px;
+        padding: 2.5rem 0rem; /* 40px 0px */
     }
 
     .sanchay h2 {
@@ -329,32 +329,32 @@
     }
 
     .banner_bottom_title {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
     }
 
     .policy_item h3 {
-        font-size: 16px;
-        padding-left: 10px;
+        font-size: 1rem; /* 16px */
+        padding-left: 0.625rem; /* 10px */
     }
 
     .award_box h4 {
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px */
     }
 
     .award_box {
-        padding: 25px;
+        padding: 1.5625rem; /* 25px */
     }
 
     .copyright_section li {
-        padding: 0px;
+        padding: 0rem; /* 0px */
     }
 
     .copyright_right {
-        margin-top: 10px;
+        margin-top: 0.625rem; /* 10px */
     }
 
     .nav_right a {
-        margin: 10px;
+        margin: 0.625rem; /* 10px */
     }
 
     .nav_right {
