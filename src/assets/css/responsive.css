@@ -360,6 +360,13 @@
     .nav_right {
         justify-content: unset;
     }
+
+    .service_item a {
+        font-size: 0.75rem;
+    }
+    .advice_button a, .services_button a{
+        font-size: 0.75rem;
+    }
 }
 
 /* Small Devices: 0px-575px End */
