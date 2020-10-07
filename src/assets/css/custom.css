@@ -27,6 +27,7 @@ h6 {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
 }
 
 ul {
@@ -437,7 +438,7 @@ a.login {
     padding-left: 1.25rem;
 }
 
-.policy_item {
+.policy_item a {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
