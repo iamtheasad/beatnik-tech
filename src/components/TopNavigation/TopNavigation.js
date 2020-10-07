@@ -32,14 +32,14 @@ class TopNavigation extends Component {
                                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav className="header_menu mr-auto">
-                                                <Nav.Link href="#home">Products</Nav.Link>
-                                                <Nav.Link href="#claims">Claims</Nav.Link>
-                                                <Nav.Link href="#claims">Support</Nav.Link>
-                                                <Nav.Link href="#claims">Rewards</Nav.Link>
+                                                <Nav.Link href="#product_section">Products</Nav.Link>
+                                                <Nav.Link href="#callToAction">Claims</Nav.Link>
+                                                <Nav.Link href="#service_section">Support</Nav.Link>
+                                                <Nav.Link href="#award">Rewards</Nav.Link>
                                                 <Nav.Link className="border_left"></Nav.Link>
-                                                <Nav.Link className="nav_link_white" href="#claims">Group
+                                                <Nav.Link className="nav_link_white" href="#">Group
                                                     Insurance</Nav.Link>
-                                                <Nav.Link className="nav_link_white" href="#claims">About Us</Nav.Link>
+                                                <Nav.Link className="nav_link_white" href="#">About Us</Nav.Link>
                                             </Nav>
 
                                             <div className="nav_right">

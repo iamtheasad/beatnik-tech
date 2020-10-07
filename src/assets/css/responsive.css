@@ -168,6 +168,14 @@
         margin-top: 1.25rem; /* 20px */
     }
 
+    a.view_all_button {
+        padding: 0.625rem 1.25rem;
+    }
+
+    a.news_all_button {
+        padding: 0.625rem 1.25rem;
+    }
+
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */
@@ -364,7 +372,8 @@
     .service_item a {
         font-size: 0.75rem;
     }
-    .advice_button a, .services_button a{
+
+    .advice_button a, .services_button a {
         font-size: 0.75rem;
     }
 }

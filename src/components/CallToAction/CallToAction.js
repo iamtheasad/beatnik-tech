@@ -7,7 +7,7 @@ class CallToAction extends Component {
 
         return (
             <Fragment>
-                <div className="call_to_action">
+                <div id="callToAction" className="call_to_action">
                     <div className="section_width">
                         <Container>
                             <Row>
