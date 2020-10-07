@@ -6,9 +6,13 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import DuoRoundedIcon from '@material-ui/icons/DuoRounded';
-import IconButton from "@material-ui/core/IconButton";
+
 
 class Footer extends Component {
+    function() {
+        const scroll = scroll.scrollToTop();
+    }
+
     render() {
         const socialColor = 'red';
         const socialHover = 'green';
@@ -202,6 +206,7 @@ class Footer extends Component {
                                     </Col>
                                 </Row>
                             </div>
+                            <a onClick={this.scrollToTop}>To the top!</a>
                         </Container>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ class Awards extends Component {
     render() {
         return (
             <Fragment>
-                <div id="award" className="award_section">
+                <div className="award_section">
                     <div className="awards_section_width">
                         <Container fluid>
                             <Row>

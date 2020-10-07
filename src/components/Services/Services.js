@@ -11,7 +11,7 @@ class Services extends Component {
     render() {
         return (
             <Fragment>
-                <div id="service_section" className="services_custom_width">
+                <div className="services_custom_width">
                     <Container fluid>
                         <Row>
                             <Col lg={4} md={5} sm={12}>

@@ -71,6 +71,14 @@ img.navLogo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #0d0d0d !important;
+    cursor: pointer;
+    padding: 2px;
+    margin: 3px;
+    transition: .2s;
+}
+
+.header_menu a:hover {
+    color: #e87722 !important;
 }
 
 .header_menu a.nav_link_white.nav-link {
@@ -161,7 +169,7 @@ a.login {
 }
 
 .menu_wrapper {
-    position: absolute;
+    position: fixed;
     z-index: 100;
     width: 100%;
     top: 0;

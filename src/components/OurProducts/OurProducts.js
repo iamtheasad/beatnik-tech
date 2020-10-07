@@ -47,7 +47,7 @@ class OurProducts extends Component {
 
         return (
             <Fragment>
-                <div id="product_section" className="our_product_section">
+                <div className="our_product_section">
                     <div className="section_width">
                         <Container fluid>
                             <Row>

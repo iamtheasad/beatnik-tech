@@ -8,6 +8,11 @@ import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import * as Scroll from 'react-scroll';
+
+
+
 
 class TopNavigation extends Component {
     constructor(props) {
@@ -18,6 +23,11 @@ class TopNavigation extends Component {
     }
 
     render() {
+        let Link      = Scroll.Link;
+        let Element   = Scroll.Element;
+        let Events    = Scroll.Events;
+        let scroll    = Scroll.animateScroll;
+        let scrollSpy = Scroll.scrollSpy;
         return (
             <Fragment>
                 <div className="menu_wrapper">
@@ -26,20 +36,46 @@ class TopNavigation extends Component {
                             <Row>
                                 <Col>
                                     <Navbar expand="lg">
-                                        <Navbar.Brand href="#home">
-                                            <img className="navLogo" src={this.state.NavLogo}/>
-                                        </Navbar.Brand>
+
+                                        <Router>
+                                            <switch>
+                                                <Route to="/">
+                                                    <Navbar.Brand href="#">
+                                                        <img className="navLogo" src={this.state.NavLogo}/>
+                                                    </Navbar.Brand>
+                                                </Route>
+                                            </switch>
+                                        </Router>
+
                                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav className="header_menu mr-auto">
-                                                <Nav.Link href="#product_section">Products</Nav.Link>
-                                                <Nav.Link href="#callToAction">Claims</Nav.Link>
-                                                <Nav.Link href="#service_section">Support</Nav.Link>
-                                                <Nav.Link href="#award">Rewards</Nav.Link>
-                                                <Nav.Link className="border_left"></Nav.Link>
-                                                <Nav.Link className="nav_link_white" href="#">Group
-                                                    Insurance</Nav.Link>
-                                                <Nav.Link className="nav_link_white" href="#">About Us</Nav.Link>
+
+                                                <Link activeClass="active" to="our_product_section" spy={true} smooth={true} offset={50} duration={500}  delay={200}>
+                                                     Products
+                                                </Link>
+                                                <Link activeClass="active" to="call_to_action" spy={true} smooth={true}
+                                                      offset={50} duration={500}  delay={200}>
+                                                    Claims
+                                                </Link>
+                                                <Link activeClass="active" to="services_custom_width" spy={true} smooth={true} offset={50} duration={500}  delay={200}>
+                                                    Support
+                                                </Link>
+                                                <Link activeClass="active" to="award_section" spy={true} smooth={true}
+                                                      offset={50} duration={500}  delay={200}>
+                                                   Rewards
+                                                </Link>
+
+                                                <Nav.Link className="border_left"> </Nav.Link>
+
+                                                <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                      offset={50} duration={500}  delay={200}>
+                                                   Group Insurance
+                                                </Link>
+                                                <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                      offset={50} duration={500}  delay={200}>
+                                                     About Us
+                                                </Link>
                                             </Nav>
 
                                             <div className="nav_right">
@@ -60,10 +96,12 @@ class TopNavigation extends Component {
                                                 <span className="language">
                                                     <p>En</p>
                                                     <p className="header_arrow_1">
-                                                        <ExpandLessIcon style={{fontSize: '14px'}}>arrow up</ExpandLessIcon>
+                                                        <ExpandLessIcon
+                                                            style={{fontSize: '14px'}}>arrow up</ExpandLessIcon>
                                                     </p>
                                                     <p className="header_arrow_2">
-                                                        <ExpandMoreIcon style={{fontSize: '14px'}}>arrow down</ExpandMoreIcon>
+                                                        <ExpandMoreIcon
+                                                            style={{fontSize: '14px'}}>arrow down</ExpandMoreIcon>
                                                     </p>
 
                                                 </span>

@@ -11,6 +11,7 @@ import Awards from "../components/Awards/Awards";
 import Footer from "../components/Footer/Footer";
 
 class HomePage extends Component {
+
     render() {
         return (
             <>
