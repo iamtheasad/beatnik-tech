@@ -10,6 +10,7 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import * as Scroll from 'react-scroll';
+import HomePage from "../../pages/HomePage";
 
 
 class TopNavigation extends Component {
@@ -21,10 +22,10 @@ class TopNavigation extends Component {
     }
 
     render() {
-        let Link      = Scroll.Link;
-        let Element   = Scroll.Element;
-        let Events    = Scroll.Events;
-        let scroll    = Scroll.animateScroll;
+        let Link = Scroll.Link;
+        let Element = Scroll.Element;
+        let Events = Scroll.Events;
+        let scroll = Scroll.animateScroll;
         let scrollSpy = Scroll.scrollSpy;
         return (
             <Fragment>
@@ -34,10 +35,9 @@ class TopNavigation extends Component {
                             <Row>
                                 <Col>
                                     <Navbar expand="lg">
-
                                         <Router>
                                             <Switch>
-                                                <Route to="/">
+                                                <Route path="/" component={HomePage}>
                                                     <Navbar.Brand href="#">
                                                         <img className="navLogo" src={this.state.NavLogo}/>
                                                     </Navbar.Brand>
@@ -49,30 +49,32 @@ class TopNavigation extends Component {
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav className="header_menu mr-auto">
 
-                                                <Link activeClass="active" to="our_product_section" spy={true} smooth={true} offset={-50} duration={500}  delay={200}>
-                                                     Products
+                                                <Link activeClass="active" to="our_product_section" spy={true}
+                                                      smooth={true} offset={-50} duration={500} delay={200}>
+                                                    Products
                                                 </Link>
                                                 <Link activeClass="active" to="call_to_action" spy={true} smooth={true}
-                                                      offset={-50} duration={500}  delay={200}>
+                                                      offset={-50} duration={500} delay={200}>
                                                     Claims
                                                 </Link>
-                                                <Link activeClass="active" to="services_custom_width" spy={true} smooth={true} offset={-50} duration={500}  delay={200}>
+                                                <Link activeClass="active" to="services_custom_width" spy={true}
+                                                      smooth={true} offset={-50} duration={500} delay={200}>
                                                     Support
                                                 </Link>
                                                 <Link activeClass="active" to="award_section" spy={true} smooth={true}
-                                                      offset={-50} duration={500}  delay={200}>
-                                                   Rewards
+                                                      offset={-50} duration={500} delay={200}>
+                                                    Rewards
                                                 </Link>
 
                                                 <Nav.Link className="border_left"> </Nav.Link>
 
                                                 <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
-                                                      offset={-50} duration={500}  delay={200}>
-                                                   Group Insurance
+                                                      offset={-50} duration={500} delay={200}>
+                                                    Group Insurance
                                                 </Link>
                                                 <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
-                                                      offset={-50} duration={500}  delay={200}>
-                                                     About Us
+                                                      offset={-50} duration={500} delay={200}>
+                                                    About Us
                                                 </Link>
                                             </Nav>
 
