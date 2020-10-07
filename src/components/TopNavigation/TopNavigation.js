@@ -12,8 +12,6 @@ import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 
 
-
-
 class TopNavigation extends Component {
     constructor(props) {
         super(props);
@@ -38,42 +36,42 @@ class TopNavigation extends Component {
                                     <Navbar expand="lg">
 
                                         <Router>
-                                            <switch>
+                                            <Switch>
                                                 <Route to="/">
                                                     <Navbar.Brand href="#">
                                                         <img className="navLogo" src={this.state.NavLogo}/>
                                                     </Navbar.Brand>
                                                 </Route>
-                                            </switch>
+                                            </Switch>
                                         </Router>
 
                                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav className="header_menu mr-auto">
 
-                                                <Link activeClass="active" to="our_product_section" spy={true} smooth={true} offset={50} duration={500}  delay={200}>
+                                                <Link activeClass="active" to="our_product_section" spy={true} smooth={true} offset={-50} duration={500}  delay={200}>
                                                      Products
                                                 </Link>
                                                 <Link activeClass="active" to="call_to_action" spy={true} smooth={true}
-                                                      offset={50} duration={500}  delay={200}>
+                                                      offset={-50} duration={500}  delay={200}>
                                                     Claims
                                                 </Link>
-                                                <Link activeClass="active" to="services_custom_width" spy={true} smooth={true} offset={50} duration={500}  delay={200}>
+                                                <Link activeClass="active" to="services_custom_width" spy={true} smooth={true} offset={-50} duration={500}  delay={200}>
                                                     Support
                                                 </Link>
                                                 <Link activeClass="active" to="award_section" spy={true} smooth={true}
-                                                      offset={50} duration={500}  delay={200}>
+                                                      offset={-50} duration={500}  delay={200}>
                                                    Rewards
                                                 </Link>
 
                                                 <Nav.Link className="border_left"> </Nav.Link>
 
                                                 <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
-                                                      offset={50} duration={500}  delay={200}>
+                                                      offset={-50} duration={500}  delay={200}>
                                                    Group Insurance
                                                 </Link>
                                                 <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
-                                                      offset={50} duration={500}  delay={200}>
+                                                      offset={-50} duration={500}  delay={200}>
                                                      About Us
                                                 </Link>
                                             </Nav>

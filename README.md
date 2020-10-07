@@ -6,6 +6,9 @@
 
 - Reactjs
 - React Bootstrap
+- react-slick
+- react-scroll
+- react-router-dom
 - Material Icon Technology are used here.
 
 ===============================
