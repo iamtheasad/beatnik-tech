@@ -344,6 +344,7 @@ a.login {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     text-align: center;
+    width: 360px;
 }
 
 .banner_bottom_right_wrapper span a {
@@ -359,7 +360,7 @@ a.login {
 
 .banner_bottom_right_wrapper h4 {
     color: #2c302e;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 .banner_bottom_title {
