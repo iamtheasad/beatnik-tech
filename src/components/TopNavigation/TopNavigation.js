@@ -68,11 +68,11 @@ class TopNavigation extends Component {
 
                                                 <Nav.Link className="border_left"> </Nav.Link>
 
-                                                <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                <Link className="white_color" activeClass="active" to="insurance_bg" spy={true} smooth={true}
                                                       offset={-50} duration={500} delay={200}>
                                                     Group Insurance
                                                 </Link>
-                                                <Link activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                <Link className="white_color" activeClass="active" to="insurance_bg" spy={true} smooth={true}
                                                       offset={-50} duration={500} delay={200}>
                                                     About Us
                                                 </Link>

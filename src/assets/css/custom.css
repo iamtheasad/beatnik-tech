@@ -78,6 +78,10 @@ img.navLogo {
     transition: .2s;
 }
 
+a.white_color {
+    color: #707070 !important;
+}
+
 .header_menu a:hover {
     color: #e87722 !important;
 }
