@@ -8,9 +8,7 @@ import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import * as Scroll from 'react-scroll';
-import HomePage from "../../pages/HomePage";
 
 
 class TopNavigation extends Component {
@@ -35,16 +33,10 @@ class TopNavigation extends Component {
                             <Row>
                                 <Col>
                                     <Navbar expand="lg">
-                                        <Router>
-                                            <Switch>
-                                                <Route path="/" component={HomePage}>
-                                                    <Navbar.Brand href="#">
-                                                        <img className="navLogo" src={this.state.NavLogo}/>
-                                                    </Navbar.Brand>
-                                                </Route>
-                                            </Switch>
-                                        </Router>
-
+                                        <Link activeClass="active" to="banner_section" spy={true}
+                                              smooth={true} duration={500} delay={200}>
+                                            <img className="navLogo" src={this.state.NavLogo}/>
+                                        </Link>
                                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav className="header_menu mr-auto">
@@ -68,11 +60,13 @@ class TopNavigation extends Component {
 
                                                 <Nav.Link className="border_left"> </Nav.Link>
 
-                                                <Link className="white_color" activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                <Link className="white_color" activeClass="active" to="insurance_bg"
+                                                      spy={true} smooth={true}
                                                       offset={-50} duration={500} delay={200}>
                                                     Group Insurance
                                                 </Link>
-                                                <Link className="white_color" activeClass="active" to="insurance_bg" spy={true} smooth={true}
+                                                <Link className="white_color" activeClass="active" to="insurance_bg"
+                                                      spy={true} smooth={true}
                                                       offset={-50} duration={500} delay={200}>
                                                     About Us
                                                 </Link>
