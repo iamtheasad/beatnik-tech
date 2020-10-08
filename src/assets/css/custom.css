@@ -64,8 +64,9 @@ a:focus {
     margin: 0 auto;
 }
 
-img.navLogo {
+.navLogo {
     width: 9.1875rem;
+    cursor: pointer;
 }
 
 .header_menu a {
