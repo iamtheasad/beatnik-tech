@@ -206,7 +206,6 @@ class Footer extends Component {
                                     </Col>
                                 </Row>
                             </div>
-                            <a onClick={this.scrollToTop}>To the top!</a>
                         </Container>
                     </div>
                 </div>
