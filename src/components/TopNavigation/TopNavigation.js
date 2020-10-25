@@ -9,7 +9,6 @@ import SearchIcon from '@material-ui/icons/Search';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import * as Scroll from 'react-scroll';
-import axios from "axios";
 
 
 class TopNavigation extends Component {
@@ -18,16 +17,6 @@ class TopNavigation extends Component {
         this.state = {
             NavLogo: [Logo]
         }
-    }
-
-    componentDidMount() {
-        axios.get('http://127.0.0.1:8000/BannerTitle')
-            .then(function (response) {
-                console.log(response.data);
-            })
-            .catch(function (error) {
-                console.log(error);
-            })
     }
 
     render() {
