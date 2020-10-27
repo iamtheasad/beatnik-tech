@@ -13,5 +13,3 @@
 
 ===============================
 
-**This website also hosted in Firebase**
-
