@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/beatnik-tech/static/css/main.2d3258e7.chunk.css",
-    "main.js": "/beatnik-tech/static/js/main.21738d0f.chunk.js",
-    "main.js.map": "/beatnik-tech/static/js/main.21738d0f.chunk.js.map",
+    "main.js": "/beatnik-tech/static/js/main.0c013c4c.chunk.js",
+    "main.js.map": "/beatnik-tech/static/js/main.0c013c4c.chunk.js.map",
     "runtime-main.js": "/beatnik-tech/static/js/runtime-main.cde4b98e.js",
     "runtime-main.js.map": "/beatnik-tech/static/js/runtime-main.cde4b98e.js.map",
     "static/css/2.578e4e32.chunk.css": "/beatnik-tech/static/css/2.578e4e32.chunk.css",
-    "static/js/2.c2b61e5c.chunk.js": "/beatnik-tech/static/js/2.c2b61e5c.chunk.js",
-    "static/js/2.c2b61e5c.chunk.js.map": "/beatnik-tech/static/js/2.c2b61e5c.chunk.js.map",
+    "static/js/2.f4a358bd.chunk.js": "/beatnik-tech/static/js/2.f4a358bd.chunk.js",
+    "static/js/2.f4a358bd.chunk.js.map": "/beatnik-tech/static/js/2.f4a358bd.chunk.js.map",
     "index.html": "/beatnik-tech/index.html",
-    "precache-manifest.a11a2f872a598dfddc5005d233fa8977.js": "/beatnik-tech/precache-manifest.a11a2f872a598dfddc5005d233fa8977.js",
+    "precache-manifest.891535cadb44d86fedf1de59f44b1e09.js": "/beatnik-tech/precache-manifest.891535cadb44d86fedf1de59f44b1e09.js",
     "service-worker.js": "/beatnik-tech/service-worker.js",
     "static/css/2.578e4e32.chunk.css.map": "/beatnik-tech/static/css/2.578e4e32.chunk.css.map",
     "static/css/main.2d3258e7.chunk.css.map": "/beatnik-tech/static/css/main.2d3258e7.chunk.css.map",
-    "static/js/2.c2b61e5c.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.c2b61e5c.chunk.js.LICENSE.txt",
+    "static/js/2.f4a358bd.chunk.js.LICENSE.txt": "/beatnik-tech/static/js/2.f4a358bd.chunk.js.LICENSE.txt",
     "static/media/1-sister-and-brother.svg": "/beatnik-tech/static/media/1-sister-and-brother.0423e6ba.svg",
     "static/media/2-graduate-boy-reading-a-book.svg": "/beatnik-tech/static/media/2-graduate-boy-reading-a-book.7c6b0c25.svg",
     "static/media/3-money-bag.svg": "/beatnik-tech/static/media/3-money-bag.8dc357ce.svg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.cde4b98e.js",
     "static/css/2.578e4e32.chunk.css",
-    "static/js/2.c2b61e5c.chunk.js",
+    "static/js/2.f4a358bd.chunk.js",
     "static/css/main.2d3258e7.chunk.css",
-    "static/js/main.21738d0f.chunk.js"
+    "static/js/main.0c013c4c.chunk.js"
   ]
 }
