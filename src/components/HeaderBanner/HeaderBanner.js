@@ -13,6 +13,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Banner_1 from '../../assets/images/banner-icon/banner-bg.jpg';
+import AppUrl from "../../RestApi/AppUrl";
+import RestClient from "../../RestApi/RestClient";
 
 
 class HeaderBanner extends Component {
@@ -23,7 +25,14 @@ class HeaderBanner extends Component {
             BannerIcon_2: [BannerIcon_2],
             BannerIcon_3: [BannerIcon_3],
             BannerIcon_4: [BannerIcon_4],
+            title: ""
         }
+    }
+
+    componentDidMount() {
+        RestClient.GetRequest(AppUrl.BannerTitle).then(result =>{
+            this.setState({title: result[0]['title']})
+        })
     }
 
     render() {
@@ -64,6 +73,8 @@ class HeaderBanner extends Component {
             ]
         };
 
+
+
         return (
             <Fragment>
                 <div className="banner_section">
@@ -78,7 +89,7 @@ class HeaderBanner extends Component {
                                     <Row>
                                         <Col lg={12}>
                                             <div className="protection_box">
-                                                <h2 className="protect_title">Family Protection Plans</h2>
+                                                <h2 className="protect_title">{this.state.title}</h2>
                                                 <div className="protection_plat_wrapper">
                                                     <div className="protection_plan">
                                                         <div className="protection_plan_box">

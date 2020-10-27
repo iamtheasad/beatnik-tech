@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import Logo from '../../assets/images/logo.png';
 import CallIcon from '@material-ui/icons/Call';
+import Logo from '../../assets/images/logo.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -9,13 +9,7 @@ import DuoRoundedIcon from '@material-ui/icons/DuoRounded';
 
 
 class Footer extends Component {
-    function() {
-        const scroll = scroll.scrollToTop();
-    }
-
     render() {
-        const socialColor = 'red';
-        const socialHover = 'green';
         return (
             <Fragment>
                 <div className="footer_section">
@@ -35,10 +29,10 @@ class Footer extends Component {
 
                                         <div className="footer_social">
 
-                                            <a href="https://line.me/en/"
+                                            <a href="https://facebook.com/"
                                                target="_blank">
                                                 <FacebookIcon
-                                                    style={{fontSize: '30px', color: '#666666'}}>Line</FacebookIcon>
+                                                    style={{fontSize: '30px', color: '#666666'}}>Facebook</FacebookIcon>
                                             </a>
                                             <a href="https://line.me/en/"
                                                target="_blank">
@@ -80,7 +74,35 @@ class Footer extends Component {
                                                         <a href="#">Legacy</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Accidents / disablities</a>
+                                                        <a href="#">Accidents / disabilities</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Investments</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </Col>
+                                        <Col lg={3} md={6} sm={12}>
+                                            <div className="footer_menu">
+                                                <ul>
+                                                    <li className="footer_menu_title">Products</li>
+                                                    <li>
+                                                        <a href="#">Health Protection</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Life Protection</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Savings</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Retirement</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Legacy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Accidents / disabilities</a>
                                                     </li>
                                                     <li>
                                                         <a href="#">Investments</a>
@@ -136,35 +158,7 @@ class Footer extends Component {
                                                         <a href="#">Legacy</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">Accidents / disablities</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Investments</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </Col>
-                                        <Col lg={3} md={6} sm={12}>
-                                            <div className="footer_menu">
-                                                <ul>
-                                                    <li className="footer_menu_title">Products</li>
-                                                    <li>
-                                                        <a href="#">Health Protection</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Life Protection</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Savings</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Retirement</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Legacy</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Accidents / disablities</a>
+                                                        <a href="#">Accidents / disabilities</a>
                                                     </li>
                                                     <li>
                                                         <a href="#">Investments</a>
@@ -201,7 +195,9 @@ class Footer extends Component {
                                     </Col>
                                     <Col lg={6} md={6} sm={12}>
                                         <p className="copyright_right">
-                                            <span>&#x000A9;</span> Copyright 2020<a href="https://github.com/iamtheasad" target="_blank"> Md. Asaduzzaman Rana </a> All Rights Reserved.
+                                            <span>&#x000A9;</span> Copyright 2020<a href="https://github.com/iamtheasad"
+                                                                                    target="_blank"> Asaduzzaman
+                                            Rana </a> All Rights Reserved.
                                         </p>
                                     </Col>
                                 </Row>
